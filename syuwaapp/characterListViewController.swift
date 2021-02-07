@@ -15,7 +15,9 @@ class characterListViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func toDetail(sender :Any){
+    }
+    }
     /*
     // MARK: - Navigation
 
