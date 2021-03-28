@@ -95,6 +95,7 @@
 		B8A62E09260F124B00B92C1C /* kanjinumberDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A62E08260F124B00B92C1C /* kanjinumberDetailViewController.swift */; };
 		B8A62E0E260F737A00B92C1C /* ジュウ.png in Resources */ = {isa = PBXBuildFile; fileRef = B8A62E0D260F737A00B92C1C /* ジュウ.png */; };
 		B8A62E13260F76FA00B92C1C /* ニジュウ　.png in Resources */ = {isa = PBXBuildFile; fileRef = B8A62E12260F76F900B92C1C /* ニジュウ　.png */; };
+		B8A62E2E2610510200B92C1C /* manynumberDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A62E2D2610510200B92C1C /* manynumberDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -211,6 +212,7 @@
 		B8A62E12260F76F900B92C1C /* ニジュウ　.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ニジュウ　.png"; sourceTree = "<group>"; };
 		B8A62E1C2610248F00B92C1C /* zero.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zero.png; sourceTree = "<group>"; };
 		B8A62E232610252600B92C1C /* zero.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zero.png; path = ../../../../Downloads/zero.png; sourceTree = "<group>"; };
+		B8A62E2D2610510200B92C1C /* manynumberDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = manynumberDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -276,6 +278,7 @@
 				B848536425BD255E003B33B7 /* Assets.xcassets */,
 				B848536625BD255E003B33B7 /* LaunchScreen.storyboard */,
 				B848536925BD255E003B33B7 /* Info.plist */,
+				B8A62E2D2610510200B92C1C /* manynumberDetailViewController.swift */,
 			);
 			path = syuwaapp;
 			sourceTree = "<group>";
@@ -597,6 +600,7 @@
 				B848536025BD2556003B33B7 /* ViewController.swift in Sources */,
 				B848535C25BD2556003B33B7 /* AppDelegate.swift in Sources */,
 				B84853AB25BD8AF0003B33B7 /* characterListViewController.swift in Sources */,
+				B8A62E2E2610510200B92C1C /* manynumberDetailViewController.swift in Sources */,
 				B80C1082260B3ED600298090 /* numberListViewController.swift in Sources */,
 				B80C10A0260B594700298090 /* numberDetailViewController.swift in Sources */,
 				B848535E25BD2556003B33B7 /* SceneDelegate.swift in Sources */,
