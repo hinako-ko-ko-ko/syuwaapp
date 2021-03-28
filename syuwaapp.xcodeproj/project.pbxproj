@@ -9,11 +9,7 @@
 /* Begin PBXBuildFile section */
 		B80C107A260B358B00298090 /* アセット 15_1.png in Resources */ = {isa = PBXBuildFile; fileRef = B80C1079260B358A00298090 /* アセット 15_1.png */; };
 		B80C1082260B3ED600298090 /* numberListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80C1081260B3ED600298090 /* numberListViewController.swift */; };
-		B80C1087260B4FD600298090 /* i.png in Resources */ = {isa = PBXBuildFile; fileRef = B80C1086260B4FD600298090 /* i.png */; };
 		B80C108C260B50E700298090 /* iti.png in Resources */ = {isa = PBXBuildFile; fileRef = B80C108B260B50E700298090 /* iti.png */; };
-		B80C1091260B56D000298090 /* zero.png in Resources */ = {isa = PBXBuildFile; fileRef = B80C1090260B56D000298090 /* zero.png */; };
-		B80C1096260B572E00298090 /* zero.png in Resources */ = {isa = PBXBuildFile; fileRef = B80C1095260B572E00298090 /* zero.png */; };
-		B80C109B260B581200298090 /* characterDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80C109A260B581200298090 /* characterDetailViewController.swift */; };
 		B80C10A0260B594700298090 /* numberDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80C109F260B594700298090 /* numberDetailViewController.swift */; };
 		B80C10A5260B5D2700298090 /* nii.png in Resources */ = {isa = PBXBuildFile; fileRef = B80C10A4260B5D2700298090 /* nii.png */; };
 		B80C10AA260B5D3C00298090 /* san.png in Resources */ = {isa = PBXBuildFile; fileRef = B80C10A9260B5D3C00298090 /* san.png */; };
@@ -27,7 +23,6 @@
 		B848535C25BD2556003B33B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B848535B25BD2556003B33B7 /* AppDelegate.swift */; };
 		B848535E25BD2556003B33B7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B848535D25BD2556003B33B7 /* SceneDelegate.swift */; };
 		B848536025BD2556003B33B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B848535F25BD2556003B33B7 /* ViewController.swift */; };
-		B848536325BD2556003B33B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B848536125BD2556003B33B7 /* Main.storyboard */; };
 		B848536525BD255E003B33B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B848536425BD255E003B33B7 /* Assets.xcassets */; };
 		B848536825BD255E003B33B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B848536625BD255E003B33B7 /* LaunchScreen.storyboard */; };
 		B848537325BD255F003B33B7 /* syuwaappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B848537225BD255F003B33B7 /* syuwaappTests.swift */; };
@@ -49,7 +44,6 @@
 		B84853E125BD9786003B33B7 /* アセット 10.png in Resources */ = {isa = PBXBuildFile; fileRef = B84853E025BD9786003B33B7 /* アセット 10.png */; };
 		B84853E625BD9DFB003B33B7 /* アセット 11.png in Resources */ = {isa = PBXBuildFile; fileRef = B84853E525BD9DFA003B33B7 /* アセット 11.png */; };
 		B84853EB25BDB6EF003B33B7 /* characterDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84853EA25BDB6EE003B33B7 /* characterDetailViewController.swift */; };
-		B84853F025BDBAF5003B33B7 /* アセット 12.png in Resources */ = {isa = PBXBuildFile; fileRef = B84853EF25BDBAF5003B33B7 /* アセット 12.png */; };
 		B84853F525BDC13A003B33B7 /* アセット 13.png in Resources */ = {isa = PBXBuildFile; fileRef = B84853F425BDC13A003B33B7 /* アセット 13.png */; };
 		B84853FB25CF94BF003B33B7 /* a.png in Resources */ = {isa = PBXBuildFile; fileRef = B84853FA25CF94BE003B33B7 /* a.png */; };
 		B848540025CF9531003B33B7 /* i.png in Resources */ = {isa = PBXBuildFile; fileRef = B84853FF25CF9531003B33B7 /* i.png */; };
@@ -97,7 +91,10 @@
 		B84854D225CFC09C003B33B7 /* wa.png in Resources */ = {isa = PBXBuildFile; fileRef = B84854D125CFC09C003B33B7 /* wa.png */; };
 		B84854D725CFC0A0003B33B7 /* wo.png in Resources */ = {isa = PBXBuildFile; fileRef = B84854D625CFC0A0003B33B7 /* wo.png */; };
 		B84854DC25CFC0A8003B33B7 /* nn.png in Resources */ = {isa = PBXBuildFile; fileRef = B84854DB25CFC0A8003B33B7 /* nn.png */; };
-		B84854E125F47B02003B33B7 /* アセット 15.png in Resources */ = {isa = PBXBuildFile; fileRef = B84854E025F47B01003B33B7 /* アセット 15.png */; };
+		B8A62E04260F11A500B92C1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8A62E02260F11A500B92C1C /* Main.storyboard */; };
+		B8A62E09260F124B00B92C1C /* kanjinumberDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A62E08260F124B00B92C1C /* kanjinumberDetailViewController.swift */; };
+		B8A62E0E260F737A00B92C1C /* ジュウ.png in Resources */ = {isa = PBXBuildFile; fileRef = B8A62E0D260F737A00B92C1C /* ジュウ.png */; };
+		B8A62E13260F76FA00B92C1C /* ニジュウ　.png in Resources */ = {isa = PBXBuildFile; fileRef = B8A62E12260F76F900B92C1C /* ニジュウ　.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,11 +117,7 @@
 /* Begin PBXFileReference section */
 		B80C1079260B358A00298090 /* アセット 15_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アセット 15_1.png"; sourceTree = "<group>"; };
 		B80C1081260B3ED600298090 /* numberListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = numberListViewController.swift; sourceTree = "<group>"; };
-		B80C1086260B4FD600298090 /* i.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = i.png; path = ../../../../Downloads/i.png; sourceTree = "<group>"; };
 		B80C108B260B50E700298090 /* iti.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iti.png; sourceTree = "<group>"; };
-		B80C1090260B56D000298090 /* zero.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zero.png; sourceTree = "<group>"; };
-		B80C1095260B572E00298090 /* zero.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zero.png; path = ../../../Downloads/zero.png; sourceTree = "<group>"; };
-		B80C109A260B581200298090 /* characterDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = characterDetailViewController.swift; sourceTree = "<group>"; };
 		B80C109F260B594700298090 /* numberDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = numberDetailViewController.swift; sourceTree = "<group>"; };
 		B80C10A4260B5D2700298090 /* nii.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nii.png; sourceTree = "<group>"; };
 		B80C10A9260B5D3C00298090 /* san.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = san.png; sourceTree = "<group>"; };
@@ -139,7 +132,6 @@
 		B848535B25BD2556003B33B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B848535D25BD2556003B33B7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B848535F25BD2556003B33B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B848536225BD2556003B33B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B848536425BD255E003B33B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B848536725BD255E003B33B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B848536925BD255E003B33B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -166,7 +158,6 @@
 		B84853E025BD9786003B33B7 /* アセット 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アセット 10.png"; sourceTree = "<group>"; };
 		B84853E525BD9DFA003B33B7 /* アセット 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アセット 11.png"; sourceTree = "<group>"; };
 		B84853EA25BDB6EE003B33B7 /* characterDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = characterDetailViewController.swift; sourceTree = "<group>"; };
-		B84853EF25BDBAF5003B33B7 /* アセット 12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アセット 12.png"; sourceTree = "<group>"; };
 		B84853F425BDC13A003B33B7 /* アセット 13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アセット 13.png"; sourceTree = "<group>"; };
 		B84853FA25CF94BE003B33B7 /* a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a.png; sourceTree = "<group>"; };
 		B84853FF25CF9531003B33B7 /* i.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i.png; sourceTree = "<group>"; };
@@ -214,7 +205,12 @@
 		B84854D125CFC09C003B33B7 /* wa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wa.png; sourceTree = "<group>"; };
 		B84854D625CFC0A0003B33B7 /* wo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wo.png; sourceTree = "<group>"; };
 		B84854DB25CFC0A8003B33B7 /* nn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nn.png; sourceTree = "<group>"; };
-		B84854E025F47B01003B33B7 /* アセット 15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アセット 15.png"; sourceTree = "<group>"; };
+		B8A62E03260F11A500B92C1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B8A62E08260F124B00B92C1C /* kanjinumberDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kanjinumberDetailViewController.swift; sourceTree = "<group>"; };
+		B8A62E0D260F737A00B92C1C /* ジュウ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ジュウ.png"; sourceTree = "<group>"; };
+		B8A62E12260F76F900B92C1C /* ニジュウ　.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ニジュウ　.png"; sourceTree = "<group>"; };
+		B8A62E1C2610248F00B92C1C /* zero.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zero.png; sourceTree = "<group>"; };
+		B8A62E232610252600B92C1C /* zero.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zero.png; path = ../../../../Downloads/zero.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -245,9 +241,6 @@
 		B848534F25BD2556003B33B7 = {
 			isa = PBXGroup;
 			children = (
-				B80C109F260B594700298090 /* numberDetailViewController.swift */,
-				B80C109A260B581200298090 /* characterDetailViewController.swift */,
-				B80C1081260B3ED600298090 /* numberListViewController.swift */,
 				B848535A25BD2556003B33B7 /* syuwaapp */,
 				B848537125BD255F003B33B7 /* syuwaappTests */,
 				B848537C25BD255F003B33B7 /* syuwaappUITests */,
@@ -268,43 +261,17 @@
 		B848535A25BD2556003B33B7 /* syuwaapp */ = {
 			isa = PBXGroup;
 			children = (
-				B84853F925CF9431003B33B7 /* syuwaImage */,
 				B848535B25BD2556003B33B7 /* AppDelegate.swift */,
-				B848538E25BD397D003B33B7 /* jiji.png */,
+				B8A62E02260F11A500B92C1C /* Main.storyboard */,
+				B8A62E08260F124B00B92C1C /* kanjinumberDetailViewController.swift */,
+				B80C109F260B594700298090 /* numberDetailViewController.swift */,
+				B80C1081260B3ED600298090 /* numberListViewController.swift */,
+				B8A62E1B2610243F00B92C1C /* AccentImage */,
+				B84853F925CF9431003B33B7 /* SyuwaImage */,
 				B84853AA25BD8AEF003B33B7 /* characterListViewController.swift */,
 				B84853EA25BDB6EE003B33B7 /* characterDetailViewController.swift */,
 				B848535D25BD2556003B33B7 /* SceneDelegate.swift */,
-				B84853B725BD9178003B33B7 /* アセット 2.png */,
-				B848539D25BD4B20003B33B7 /* otoko.png */,
-				B848539325BD3A24003B33B7 /* baba.png */,
-				B84854E025F47B01003B33B7 /* アセット 15.png */,
-				B84853E525BD9DFA003B33B7 /* アセット 11.png */,
-				B84853C925BD9668003B33B7 /* アセット 6.png */,
-				B80C1079260B358A00298090 /* アセット 15_1.png */,
-				B84853F425BDC13A003B33B7 /* アセット 13.png */,
-				B84853BC25BD9232003B33B7 /* アセット 4.png */,
-				B80C1090260B56D000298090 /* zero.png */,
-				B80C1095260B572E00298090 /* zero.png */,
-				B84853EF25BDBAF5003B33B7 /* アセット 12.png */,
-				B84853D825BD9738003B33B7 /* アセット 9.png */,
-				B84853D325BD96F2003B33B7 /* アセット 8.png */,
-				B84853C125BD9606003B33B7 /* アセット 5.png */,
-				B80C108B260B50E700298090 /* iti.png */,
-				B80C10B8260B5DDB00298090 /* roku.png */,
-				B84853E025BD9786003B33B7 /* アセット 10.png */,
-				B80C10CC260B5E4C00298090 /* jyuu.png */,
-				B80C10C7260B5E4800298090 /* kyu.png */,
-				B80C10A4260B5D2700298090 /* nii.png */,
-				B80C10C2260B5E2D00298090 /* nana.png */,
-				B80C10BD260B5E2000298090 /* hati.png */,
-				B848539825BD4ABC003B33B7 /* onnna.png */,
-				B80C10B3260B5D9000298090 /* go.png */,
-				B80C10AE260B5D7100298090 /* yonn.png */,
-				B80C10A9260B5D3C00298090 /* san.png */,
-				B84853CE25BD96B8003B33B7 /* アセット 7.png */,
 				B848535F25BD2556003B33B7 /* ViewController.swift */,
-				B84853AF25BD8E60003B33B7 /* アセット 1.png */,
-				B848536125BD2556003B33B7 /* Main.storyboard */,
 				B84853A225BD6CB9003B33B7 /* syuwaViewController.swift */,
 				B848536425BD255E003B33B7 /* Assets.xcassets */,
 				B848536625BD255E003B33B7 /* LaunchScreen.storyboard */,
@@ -331,9 +298,23 @@
 			path = syuwaappUITests;
 			sourceTree = "<group>";
 		};
-		B84853F925CF9431003B33B7 /* syuwaImage */ = {
+		B84853F925CF9431003B33B7 /* SyuwaImage */ = {
 			isa = PBXGroup;
 			children = (
+				B84853F425BDC13A003B33B7 /* アセット 13.png */,
+				B8A62E12260F76F900B92C1C /* ニジュウ　.png */,
+				B8A62E0D260F737A00B92C1C /* ジュウ.png */,
+				B80C10B3260B5D9000298090 /* go.png */,
+				B8A62E1C2610248F00B92C1C /* zero.png */,
+				B80C10A9260B5D3C00298090 /* san.png */,
+				B80C10AE260B5D7100298090 /* yonn.png */,
+				B80C10BD260B5E2000298090 /* hati.png */,
+				B80C10C2260B5E2D00298090 /* nana.png */,
+				B80C10A4260B5D2700298090 /* nii.png */,
+				B80C10C7260B5E4800298090 /* kyu.png */,
+				B80C10CC260B5E4C00298090 /* jyuu.png */,
+				B80C10B8260B5DDB00298090 /* roku.png */,
+				B80C108B260B50E700298090 /* iti.png */,
 				B84853FA25CF94BE003B33B7 /* a.png */,
 				B84853FF25CF9531003B33B7 /* i.png */,
 				B848540425CFBE80003B33B7 /* u.png */,
@@ -345,7 +326,6 @@
 				B848542225CFBFBA003B33B7 /* ke.png */,
 				B848542725CFBFC4003B33B7 /* ko.png */,
 				B848542C25CFBFC8003B33B7 /* sa.png */,
-				B80C1086260B4FD600298090 /* i.png */,
 				B848543125CFBFCD003B33B7 /* si.png */,
 				B848543625CFBFD5003B33B7 /* su.png */,
 				B848543B25CFBFD8003B33B7 /* se.png */,
@@ -353,6 +333,7 @@
 				B848544525CFBFE2003B33B7 /* ta.png */,
 				B848544A25CFBFE7003B33B7 /* ti.png */,
 				B848544F25CFBFEC003B33B7 /* tu.png */,
+				B848547725CFC03F003B33B7 /* ha.png */,
 				B848545425CFBFF5003B33B7 /* te.png */,
 				B848545925CFC00E003B33B7 /* to.png */,
 				B848545E25CFC017003B33B7 /* na.png */,
@@ -360,7 +341,6 @@
 				B848546825CFC01F003B33B7 /* nu.png */,
 				B848546D25CFC023003B33B7 /* ne.png */,
 				B848547225CFC03A003B33B7 /* no.png */,
-				B848547725CFC03F003B33B7 /* ha.png */,
 				B848547C25CFC044003B33B7 /* hi.png */,
 				B848548125CFC04B003B33B7 /* fu.png */,
 				B848548625CFC050003B33B7 /* he.png */,
@@ -381,8 +361,31 @@
 				B84854D125CFC09C003B33B7 /* wa.png */,
 				B84854D625CFC0A0003B33B7 /* wo.png */,
 				B84854DB25CFC0A8003B33B7 /* nn.png */,
+				B8A62E232610252600B92C1C /* zero.png */,
 			);
-			path = syuwaImage;
+			path = SyuwaImage;
+			sourceTree = "<group>";
+		};
+		B8A62E1B2610243F00B92C1C /* AccentImage */ = {
+			isa = PBXGroup;
+			children = (
+				B848538E25BD397D003B33B7 /* jiji.png */,
+				B84853B725BD9178003B33B7 /* アセット 2.png */,
+				B848539D25BD4B20003B33B7 /* otoko.png */,
+				B848539325BD3A24003B33B7 /* baba.png */,
+				B84853E525BD9DFA003B33B7 /* アセット 11.png */,
+				B84853C925BD9668003B33B7 /* アセット 6.png */,
+				B80C1079260B358A00298090 /* アセット 15_1.png */,
+				B84853BC25BD9232003B33B7 /* アセット 4.png */,
+				B84853D825BD9738003B33B7 /* アセット 9.png */,
+				B84853D325BD96F2003B33B7 /* アセット 8.png */,
+				B84853C125BD9606003B33B7 /* アセット 5.png */,
+				B84853E025BD9786003B33B7 /* アセット 10.png */,
+				B84853CE25BD96B8003B33B7 /* アセット 7.png */,
+				B84853AF25BD8E60003B33B7 /* アセット 1.png */,
+				B848539825BD4ABC003B33B7 /* onnna.png */,
+			);
+			path = AccentImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -488,8 +491,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B84854E125F47B02003B33B7 /* アセット 15.png in Resources */,
-				B80C1091260B56D000298090 /* zero.png in Resources */,
 				B84854DC25CFC0A8003B33B7 /* nn.png in Resources */,
 				B848545F25CFC017003B33B7 /* na.png in Resources */,
 				B848545A25CFC00E003B33B7 /* to.png in Resources */,
@@ -522,7 +523,9 @@
 				B848544125CFBFDE003B33B7 /* so.png in Resources */,
 				B84854AF25CFC076003B33B7 /* yu.png in Resources */,
 				B848538F25BD397E003B33B7 /* jiji.png in Resources */,
+				B8A62E04260F11A500B92C1C /* Main.storyboard in Resources */,
 				B84853E625BD9DFB003B33B7 /* アセット 11.png in Resources */,
+				B8A62E13260F76FA00B92C1C /* ニジュウ　.png in Resources */,
 				B848548725CFC050003B33B7 /* he.png in Resources */,
 				B80C107A260B358B00298090 /* アセット 15_1.png in Resources */,
 				B84853E125BD9786003B33B7 /* アセット 10.png in Resources */,
@@ -532,6 +535,7 @@
 				B848540525CFBE81003B33B7 /* u.png in Resources */,
 				B84854A025CFC067003B33B7 /* me.png in Resources */,
 				B84854C825CFC092003B33B7 /* re.png in Resources */,
+				B8A62E0E260F737A00B92C1C /* ジュウ.png in Resources */,
 				B848541925CFBFB0003B33B7 /* ki.png in Resources */,
 				B84854CD25CFC097003B33B7 /* ro.png in Resources */,
 				B848546E25CFC023003B33B7 /* ne.png in Resources */,
@@ -543,7 +547,6 @@
 				B84853CA25BD9669003B33B7 /* アセット 6.png in Resources */,
 				B84854C325CFC087003B33B7 /* ru.png in Resources */,
 				B84854B425CFC07B003B33B7 /* yo.png in Resources */,
-				B80C1096260B572E00298090 /* zero.png in Resources */,
 				B80C10CD260B5E4C00298090 /* jyuu.png in Resources */,
 				B84853C225BD9607003B33B7 /* アセット 5.png in Resources */,
 				B848549125CFC059003B33B7 /* ma.png in Resources */,
@@ -553,15 +556,12 @@
 				B84853FB25CF94BF003B33B7 /* a.png in Resources */,
 				B848544625CFBFE3003B33B7 /* ta.png in Resources */,
 				B848540A25CFBF98003B33B7 /* e.png in Resources */,
-				B80C1087260B4FD600298090 /* i.png in Resources */,
 				B84853B025BD8E61003B33B7 /* アセット 1.png in Resources */,
-				B848536325BD2556003B33B7 /* Main.storyboard in Resources */,
 				B80C10AA260B5D3C00298090 /* san.png in Resources */,
 				B848542D25CFBFC9003B33B7 /* sa.png in Resources */,
 				B80C10B4260B5D9000298090 /* go.png in Resources */,
 				B80C10AF260B5D7100298090 /* yonn.png in Resources */,
 				B84854A525CFC06F003B33B7 /* mo.png in Resources */,
-				B84853F025BDBAF5003B33B7 /* アセット 12.png in Resources */,
 				B80C10A5260B5D2700298090 /* nii.png in Resources */,
 				B84853F525BDC13A003B33B7 /* アセット 13.png in Resources */,
 				B848546425CFC01B003B33B7 /* ni.png in Resources */,
@@ -592,13 +592,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8A62E09260F124B00B92C1C /* kanjinumberDetailViewController.swift in Sources */,
 				B84853A325BD6CB9003B33B7 /* syuwaViewController.swift in Sources */,
 				B848536025BD2556003B33B7 /* ViewController.swift in Sources */,
 				B848535C25BD2556003B33B7 /* AppDelegate.swift in Sources */,
 				B84853AB25BD8AF0003B33B7 /* characterListViewController.swift in Sources */,
 				B80C1082260B3ED600298090 /* numberListViewController.swift in Sources */,
 				B80C10A0260B594700298090 /* numberDetailViewController.swift in Sources */,
-				B80C109B260B581200298090 /* characterDetailViewController.swift in Sources */,
 				B848535E25BD2556003B33B7 /* SceneDelegate.swift in Sources */,
 				B84853EB25BDB6EF003B33B7 /* characterDetailViewController.swift in Sources */,
 			);
@@ -636,20 +636,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B848536125BD2556003B33B7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B848536225BD2556003B33B7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B848536625BD255E003B33B7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				B848536725BD255E003B33B7 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B8A62E02260F11A500B92C1C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8A62E03260F11A500B92C1C /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

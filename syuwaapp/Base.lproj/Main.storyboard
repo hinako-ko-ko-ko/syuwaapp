@@ -121,6 +121,9 @@
                                 <state key="normal" title="数詞">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="4ko-8j-68O" kind="show" id="hoM-dJ-cp0"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r8t-QX-Kze">
                                 <rect key="frame" x="18" y="338" width="99" height="49"/>
@@ -196,31 +199,9 @@
             <objects>
                 <viewController id="4ko-8j-68O" customClass="numberListViewController" customModule="syuwaapp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cVq-Oi-vO0">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UyS-YP-WBO">
-                                <rect key="frame" x="42" y="318" width="330" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="0〜９">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <action selector="toDetailWithSender:" destination="abN-Uj-feb" eventType="touchUpInside" id="JZ9-tG-du3"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fkd-Rh-qWb">
-                                <rect key="frame" x="42" y="432" width="330" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="一〜九">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <action selector="toDetailWithSender:" destination="abN-Uj-feb" eventType="touchUpInside" id="ilJ-JY-xen"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cbT-lI-oJ0">
                                 <rect key="frame" x="42" y="557" width="330" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -230,6 +211,7 @@
                                 </state>
                                 <connections>
                                     <action selector="toDetailWithSender:" destination="abN-Uj-feb" eventType="touchUpInside" id="6ZW-Wc-pJc"/>
+                                    <segue destination="YPn-AV-xYl" kind="show" id="SGh-TF-5rm"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ldx-9J-cg5">
@@ -252,21 +234,39 @@
                                     <action selector="toDetailWithSender:" destination="abN-Uj-feb" eventType="touchUpInside" id="rHO-hA-3zb"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UyS-YP-WBO">
+                                <rect key="frame" x="42" y="427" width="330" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="0〜９">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="toDetailWithSender:" destination="abN-Uj-feb" eventType="touchUpInside" id="JZ9-tG-du3"/>
+                                    <segue destination="9ZQ-h3-bjD" kind="show" id="C4h-8F-Klo"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="nf0-F1-h5C"/>
                         <color key="backgroundColor" red="0.98431372549019602" green="0.77254901960784317" blue="0.19215686274509802" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="ank-xi-uEH"/>
+                    <connections>
+                        <outlet property="hyakuButton" destination="2et-rt-dK9" id="lD0-Be-hVm"/>
+                        <outlet property="jyuuButton" destination="cbT-lI-oJ0" id="hWr-xB-XLP"/>
+                        <outlet property="suujiButton" destination="UyS-YP-WBO" id="mst-Va-3nb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HK6-r4-vvN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1251" y="747"/>
+            <point key="canvasLocation" x="1251" y="792"/>
         </scene>
         <!--Number Detail View Controller-->
         <scene sceneID="Zwe-Fw-XqU">
             <objects>
                 <viewController id="9ZQ-h3-bjD" customClass="numberDetailViewController" customModule="syuwaapp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TMJ-6I-XIY">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="１" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h3j-lo-OBz">
@@ -304,10 +304,11 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
+                                    <action selector="changenumberWithSender:" destination="9ZQ-h3-bjD" eventType="touchUpInside" id="fb1-DV-2yn"/>
                                     <action selector="toDetailWithSender:" destination="abN-Uj-feb" eventType="touchUpInside" id="Sl3-uS-flx"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oBz-qq-qo3">
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oBz-qq-qo3">
                                 <rect key="frame" x="48" y="565" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -315,10 +316,11 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
+                                    <action selector="changenumberWithSender:" destination="9ZQ-h3-bjD" eventType="touchUpInside" id="Iav-FP-uvH"/>
                                     <action selector="toDetailWithSender:" destination="abN-Uj-feb" eventType="touchUpInside" id="eiN-QV-Ga2"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="10" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u7s-sJ-vTg">
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u7s-sJ-vTg">
                                 <rect key="frame" x="48" y="660" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -326,6 +328,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
+                                    <action selector="changenumberWithSender:" destination="9ZQ-h3-bjD" eventType="touchUpInside" id="sTM-4T-kro"/>
                                     <action selector="toDetailWithSender:" destination="abN-Uj-feb" eventType="touchUpInside" id="KYB-hw-8Av"/>
                                 </connections>
                             </button>
@@ -337,10 +340,11 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
+                                    <action selector="changenumberWithSender:" destination="9ZQ-h3-bjD" eventType="touchUpInside" id="9pg-9g-Qjc"/>
                                     <action selector="toDetailWithSender:" destination="abN-Uj-feb" eventType="touchUpInside" id="8Uy-EJ-kBP"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XJM-lD-VbY">
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XJM-lD-VbY">
                                 <rect key="frame" x="177" y="565" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -348,10 +352,11 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
+                                    <action selector="changenumberWithSender:" destination="9ZQ-h3-bjD" eventType="touchUpInside" id="91z-KN-mde"/>
                                     <action selector="toDetailWithSender:" destination="abN-Uj-feb" eventType="touchUpInside" id="ODF-Lg-bCs"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="11" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gh2-7e-gez">
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gh2-7e-gez">
                                 <rect key="frame" x="177" y="660" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -359,10 +364,11 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
+                                    <action selector="changenumberWithSender:" destination="9ZQ-h3-bjD" eventType="touchUpInside" id="tUb-Wu-lBY"/>
                                     <action selector="toDetailWithSender:" destination="abN-Uj-feb" eventType="touchUpInside" id="QkX-Uq-tcP"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="16" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qh9-E4-09d">
+                            <button opaque="NO" tag="9" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qh9-E4-09d">
                                 <rect key="frame" x="177" y="754" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -370,6 +376,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
+                                    <action selector="changenumberWithSender:" destination="9ZQ-h3-bjD" eventType="touchUpInside" id="gap-wo-1bg"/>
                                     <action selector="toDetailWithSender:" destination="abN-Uj-feb" eventType="touchUpInside" id="1Zu-ig-fra"/>
                                 </connections>
                             </button>
@@ -381,10 +388,11 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
+                                    <action selector="changenumberWithSender:" destination="9ZQ-h3-bjD" eventType="touchUpInside" id="Qmn-wy-0gS"/>
                                     <action selector="toDetailWithSender:" destination="abN-Uj-feb" eventType="touchUpInside" id="2EL-vW-GQF"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zsl-1j-eH6">
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zsl-1j-eH6">
                                 <rect key="frame" x="306" y="565" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -392,10 +400,11 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
+                                    <action selector="changenumberWithSender:" destination="9ZQ-h3-bjD" eventType="touchUpInside" id="7Go-SA-z5Y"/>
                                     <action selector="toDetailWithSender:" destination="abN-Uj-feb" eventType="touchUpInside" id="NdN-tY-IEu"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="12" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tNz-di-MO4">
+                            <button opaque="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tNz-di-MO4">
                                 <rect key="frame" x="306" y="660" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -403,17 +412,193 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
+                                    <action selector="changenumberWithSender:" destination="9ZQ-h3-bjD" eventType="touchUpInside" id="iYr-eY-va0"/>
                                     <action selector="toDetailWithSender:" destination="abN-Uj-feb" eventType="touchUpInside" id="zmG-NQ-OMs"/>
                                 </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="wY6-f8-xGm"/>
-                        <color key="backgroundColor" red="0.34901960784313724" green="0.60392156862745094" blue="0.6588235294117647" alpha="0.72689260563380287" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.34901960780000002" green="0.60392156860000001" blue="0.6588235294" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="tRf-Uv-PiF"/>
+                    <connections>
+                        <outlet property="Label" destination="zR5-nX-f3d" id="zp1-Ua-oe2"/>
+                        <outlet property="imageView" destination="tJj-z6-fIW" id="4IQ-Bn-Xcw"/>
+                        <outlet property="imageView2" destination="5Pa-ln-9tN" id="ENu-Ce-y5c"/>
+                        <outlet property="numberLabel" destination="h3j-lo-OBz" id="kKd-DB-Uc8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FFl-j9-SJO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2025" y="747"/>
+            <point key="canvasLocation" x="2025" y="792"/>
+        </scene>
+        <!--Kanjinumber Detail View Controller-->
+        <scene sceneID="Whm-WY-H7k">
+            <objects>
+                <viewController id="YPn-AV-xYl" customClass="kanjinumberDetailViewController" customModule="syuwaapp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yxZ-eG-ekz">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="１０" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XSN-9O-qwg">
+                                <rect key="frame" x="48" y="45" width="75" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iti.png" translatesAutoresizingMaskIntoConstraints="NO" id="AFY-ON-5U7">
+                                <rect key="frame" x="30" y="156" width="138" height="102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="アセット 15_1.png" translatesAutoresizingMaskIntoConstraints="NO" id="dx7-jA-yC2">
+                                <rect key="frame" x="174" y="85" width="240" height="173"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iti.png" translatesAutoresizingMaskIntoConstraints="NO" id="M8P-uV-vBZ">
+                                <rect key="frame" x="193" y="173" width="88" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="人差し指を前に折り曲げる" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mdZ-Hh-C0Q">
+                                <rect key="frame" x="-6" y="297" width="427" height="107"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sRi-xO-OJQ">
+                                <rect key="frame" x="48" y="493" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="１０">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="changekanjinumberWithSender:" destination="YPn-AV-xYl" eventType="touchUpInside" id="x4p-HT-vq7"/>
+                                    <action selector="changenumberWithSender:" destination="9ZQ-h3-bjD" eventType="touchUpInside" id="Vt6-DJ-aAx"/>
+                                    <action selector="toDetailWithSender:" destination="abN-Uj-feb" eventType="touchUpInside" id="x6X-Al-Kr9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gPe-2z-czR">
+                                <rect key="frame" x="48" y="590" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="４０">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="changekanjinumberWithSender:" destination="YPn-AV-xYl" eventType="touchUpInside" id="ZAp-au-MEt"/>
+                                    <action selector="changenumberWithSender:" destination="9ZQ-h3-bjD" eventType="touchUpInside" id="jg1-12-4r5"/>
+                                    <action selector="toDetailWithSender:" destination="abN-Uj-feb" eventType="touchUpInside" id="zc6-uL-cgX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8bw-kV-f75">
+                                <rect key="frame" x="48" y="685" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="７０">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="changekanjinumberWithSender:" destination="YPn-AV-xYl" eventType="touchUpInside" id="8hO-go-SpE"/>
+                                    <action selector="changenumberWithSender:" destination="9ZQ-h3-bjD" eventType="touchUpInside" id="4St-N7-Bzh"/>
+                                    <action selector="toDetailWithSender:" destination="abN-Uj-feb" eventType="touchUpInside" id="63m-tf-3pc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="smt-wn-Yco">
+                                <rect key="frame" x="177" y="493" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="２０">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="changekanjinumberWithSender:" destination="YPn-AV-xYl" eventType="touchUpInside" id="irj-UE-RVI"/>
+                                    <action selector="changenumberWithSender:" destination="9ZQ-h3-bjD" eventType="touchUpInside" id="P1U-Bc-cYS"/>
+                                    <action selector="toDetailWithSender:" destination="abN-Uj-feb" eventType="touchUpInside" id="QEh-U6-rSs"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u0f-as-og5">
+                                <rect key="frame" x="177" y="590" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="５０">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="changekanjinumberWithSender:" destination="YPn-AV-xYl" eventType="touchUpInside" id="CCM-eQ-NW0"/>
+                                    <action selector="changenumberWithSender:" destination="9ZQ-h3-bjD" eventType="touchUpInside" id="gBq-MS-aQI"/>
+                                    <action selector="toDetailWithSender:" destination="abN-Uj-feb" eventType="touchUpInside" id="sKP-Yn-vkq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g4q-Gd-cBX">
+                                <rect key="frame" x="177" y="685" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="８０">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="changekanjinumberWithSender:" destination="YPn-AV-xYl" eventType="touchUpInside" id="zWm-pK-uKQ"/>
+                                    <action selector="changenumberWithSender:" destination="9ZQ-h3-bjD" eventType="touchUpInside" id="Apy-eP-5Ne"/>
+                                    <action selector="toDetailWithSender:" destination="abN-Uj-feb" eventType="touchUpInside" id="a0S-EB-w7j"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jx1-pk-Vfe">
+                                <rect key="frame" x="306" y="493" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="３０">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="changekanjinumberWithSender:" destination="YPn-AV-xYl" eventType="touchUpInside" id="AJ1-Xt-hHW"/>
+                                    <action selector="changenumberWithSender:" destination="9ZQ-h3-bjD" eventType="touchUpInside" id="JFU-EO-Xvd"/>
+                                    <action selector="toDetailWithSender:" destination="abN-Uj-feb" eventType="touchUpInside" id="JGg-Me-Aud"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uwo-lf-LAW">
+                                <rect key="frame" x="306" y="590" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="６０">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="changekanjinumberWithSender:" destination="YPn-AV-xYl" eventType="touchUpInside" id="Wna-xV-9ZC"/>
+                                    <action selector="changenumberWithSender:" destination="9ZQ-h3-bjD" eventType="touchUpInside" id="6Xs-Rm-zo6"/>
+                                    <action selector="toDetailWithSender:" destination="abN-Uj-feb" eventType="touchUpInside" id="8Yr-f6-pWi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cNT-tU-fy4">
+                                <rect key="frame" x="306" y="685" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="９０">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="changekanjinumberWithSender:" destination="YPn-AV-xYl" eventType="touchUpInside" id="VOd-WM-0A0"/>
+                                    <action selector="changenumberWithSender:" destination="9ZQ-h3-bjD" eventType="touchUpInside" id="23u-Mx-pBG"/>
+                                    <action selector="toDetailWithSender:" destination="abN-Uj-feb" eventType="touchUpInside" id="tOu-gy-G1f"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="inO-J6-ngy"/>
+                        <color key="backgroundColor" red="0.34901960784313724" green="0.60392156862745094" blue="0.6588235294117647" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ZUZ-BJ-89b"/>
+                    <connections>
+                        <outlet property="Label" destination="mdZ-Hh-C0Q" id="lFT-Mx-Jxs"/>
+                        <outlet property="imageView" destination="AFY-ON-5U7" id="64X-O2-pDV"/>
+                        <outlet property="imageView2" destination="dx7-jA-yC2" id="bTx-az-1IF"/>
+                        <outlet property="numberLabel" destination="XSN-9O-qwg" id="Lc5-dS-HI6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Eqq-vx-iHT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2025" y="1515"/>
         </scene>
         <!--Character List View Controller-->
         <scene sceneID="TdP-If-x8W">
