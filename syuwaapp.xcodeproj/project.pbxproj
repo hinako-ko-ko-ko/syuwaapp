@@ -20,6 +20,7 @@
 		B80C10C3260B5E2D00298090 /* nana.png in Resources */ = {isa = PBXBuildFile; fileRef = B80C10C2260B5E2D00298090 /* nana.png */; };
 		B80C10C8260B5E4800298090 /* kyu.png in Resources */ = {isa = PBXBuildFile; fileRef = B80C10C7260B5E4800298090 /* kyu.png */; };
 		B80C10CD260B5E4C00298090 /* jyuu.png in Resources */ = {isa = PBXBuildFile; fileRef = B80C10CC260B5E4C00298090 /* jyuu.png */; };
+		B840B374263EF53E00C4F82B /* AlphabetCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B840B373263EF53E00C4F82B /* AlphabetCollectionViewCell.swift */; };
 		B848535C25BD2556003B33B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B848535B25BD2556003B33B7 /* AppDelegate.swift */; };
 		B848535E25BD2556003B33B7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B848535D25BD2556003B33B7 /* SceneDelegate.swift */; };
 		B848536025BD2556003B33B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B848535F25BD2556003B33B7 /* ViewController.swift */; };
@@ -138,6 +139,7 @@
 		B80C10C2260B5E2D00298090 /* nana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nana.png; sourceTree = "<group>"; };
 		B80C10C7260B5E4800298090 /* kyu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kyu.png; sourceTree = "<group>"; };
 		B80C10CC260B5E4C00298090 /* jyuu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jyuu.png; sourceTree = "<group>"; };
+		B840B373263EF53E00C4F82B /* AlphabetCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphabetCollectionViewCell.swift; sourceTree = "<group>"; };
 		B848535825BD2556003B33B7 /* syuwaapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = syuwaapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B848535B25BD2556003B33B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B848535D25BD2556003B33B7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -306,6 +308,7 @@
 				B8A62E2D2610510200B92C1C /* manynumberDetailViewController.swift */,
 				B8A62E3A2611752100B92C1C /* aisatuDetailViewController.swift */,
 				B8A62E3F2611BF0100B92C1C /* UIColor+hex.swift */,
+				B840B373263EF53E00C4F82B /* AlphabetCollectionViewCell.swift */,
 			);
 			path = syuwaapp;
 			sourceTree = "<group>";
@@ -630,6 +633,7 @@
 			files = (
 				B8A62E09260F124B00B92C1C /* kanjinumberDetailViewController.swift in Sources */,
 				B84853A325BD6CB9003B33B7 /* syuwaViewController.swift in Sources */,
+				B840B374263EF53E00C4F82B /* AlphabetCollectionViewCell.swift in Sources */,
 				B848536025BD2556003B33B7 /* ViewController.swift in Sources */,
 				B848535C25BD2556003B33B7 /* AppDelegate.swift in Sources */,
 				B84853AB25BD8AF0003B33B7 /* characterListViewController.swift in Sources */,
