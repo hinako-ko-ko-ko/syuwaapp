@@ -96,6 +96,15 @@
 		B8A62E0E260F737A00B92C1C /* ジュウ.png in Resources */ = {isa = PBXBuildFile; fileRef = B8A62E0D260F737A00B92C1C /* ジュウ.png */; };
 		B8A62E13260F76FA00B92C1C /* ニジュウ　.png in Resources */ = {isa = PBXBuildFile; fileRef = B8A62E12260F76F900B92C1C /* ニジュウ　.png */; };
 		B8A62E2E2610510200B92C1C /* manynumberDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A62E2D2610510200B92C1C /* manynumberDetailViewController.swift */; };
+		B8A62E3B2611752100B92C1C /* aisatuDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A62E3A2611752100B92C1C /* aisatuDetailViewController.swift */; };
+		B8A62E402611BF0300B92C1C /* UIColor+hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A62E3F2611BF0100B92C1C /* UIColor+hex.swift */; };
+		B8E9F2A526121A6300DC8055 /* 10.png in Resources */ = {isa = PBXBuildFile; fileRef = B8E9F2A426121A6300DC8055 /* 10.png */; };
+		B8E9F2AA26121AB400DC8055 /* 20.png in Resources */ = {isa = PBXBuildFile; fileRef = B8E9F2A926121AB300DC8055 /* 20.png */; };
+		B8E9F2AF26121ABA00DC8055 /* 30.png in Resources */ = {isa = PBXBuildFile; fileRef = B8E9F2AE26121ABA00DC8055 /* 30.png */; };
+		B8E9F2B426121AC000DC8055 /* 40.png in Resources */ = {isa = PBXBuildFile; fileRef = B8E9F2B326121AC000DC8055 /* 40.png */; };
+		B8E9F2BC26121B2A00DC8055 /* 102.png in Resources */ = {isa = PBXBuildFile; fileRef = B8E9F2BB26121B2A00DC8055 /* 102.png */; };
+		B8E9F2C126121C0900DC8055 /* 402.png in Resources */ = {isa = PBXBuildFile; fileRef = B8E9F2C026121C0900DC8055 /* 402.png */; };
+		B8E9F2C62612B9C500DC8055 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E9F2C52612B9C500DC8055 /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -213,6 +222,15 @@
 		B8A62E1C2610248F00B92C1C /* zero.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zero.png; sourceTree = "<group>"; };
 		B8A62E232610252600B92C1C /* zero.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zero.png; path = ../../../../Downloads/zero.png; sourceTree = "<group>"; };
 		B8A62E2D2610510200B92C1C /* manynumberDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = manynumberDetailViewController.swift; sourceTree = "<group>"; };
+		B8A62E3A2611752100B92C1C /* aisatuDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aisatuDetailViewController.swift; sourceTree = "<group>"; };
+		B8A62E3F2611BF0100B92C1C /* UIColor+hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+hex.swift"; sourceTree = "<group>"; };
+		B8E9F2A426121A6300DC8055 /* 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10.png; sourceTree = "<group>"; };
+		B8E9F2A926121AB300DC8055 /* 20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 20.png; sourceTree = "<group>"; };
+		B8E9F2AE26121ABA00DC8055 /* 30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 30.png; sourceTree = "<group>"; };
+		B8E9F2B326121AC000DC8055 /* 40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 40.png; sourceTree = "<group>"; };
+		B8E9F2BB26121B2A00DC8055 /* 102.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 102.png; sourceTree = "<group>"; };
+		B8E9F2C026121C0900DC8055 /* 402.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 402.png; sourceTree = "<group>"; };
+		B8E9F2C52612B9C500DC8055 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CollectionViewCell.swift; path = ../CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -263,6 +281,13 @@
 		B848535A25BD2556003B33B7 /* syuwaapp */ = {
 			isa = PBXGroup;
 			children = (
+				B8E9F2C52612B9C500DC8055 /* CollectionViewCell.swift */,
+				B8E9F2A426121A6300DC8055 /* 10.png */,
+				B8E9F2A926121AB300DC8055 /* 20.png */,
+				B8E9F2AE26121ABA00DC8055 /* 30.png */,
+				B8E9F2B326121AC000DC8055 /* 40.png */,
+				B8E9F2BB26121B2A00DC8055 /* 102.png */,
+				B8E9F2C026121C0900DC8055 /* 402.png */,
 				B848535B25BD2556003B33B7 /* AppDelegate.swift */,
 				B8A62E02260F11A500B92C1C /* Main.storyboard */,
 				B8A62E08260F124B00B92C1C /* kanjinumberDetailViewController.swift */,
@@ -279,6 +304,8 @@
 				B848536625BD255E003B33B7 /* LaunchScreen.storyboard */,
 				B848536925BD255E003B33B7 /* Info.plist */,
 				B8A62E2D2610510200B92C1C /* manynumberDetailViewController.swift */,
+				B8A62E3A2611752100B92C1C /* aisatuDetailViewController.swift */,
+				B8A62E3F2611BF0100B92C1C /* UIColor+hex.swift */,
 			);
 			path = syuwaapp;
 			sourceTree = "<group>";
@@ -515,11 +542,14 @@
 				B848539425BD3A24003B33B7 /* baba.png in Resources */,
 				B84853D425BD96F2003B33B7 /* アセット 8.png in Resources */,
 				B84854AA25CFC073003B33B7 /* ya.png in Resources */,
+				B8E9F2C126121C0900DC8055 /* 402.png in Resources */,
 				B848545525CFBFF6003B33B7 /* te.png in Resources */,
 				B84853CF25BD96B9003B33B7 /* アセット 7.png in Resources */,
 				B848548C25CFC055003B33B7 /* ho.png in Resources */,
 				B80C108C260B50E700298090 /* iti.png in Resources */,
+				B8E9F2AA26121AB400DC8055 /* 20.png in Resources */,
 				B84853BD25BD9232003B33B7 /* アセット 4.png in Resources */,
+				B8E9F2A526121A6300DC8055 /* 10.png in Resources */,
 				B848543C25CFBFD9003B33B7 /* se.png in Resources */,
 				B848540025CF9531003B33B7 /* i.png in Resources */,
 				B84854BE25CFC083003B33B7 /* ri.png in Resources */,
@@ -531,6 +561,7 @@
 				B8A62E13260F76FA00B92C1C /* ニジュウ　.png in Resources */,
 				B848548725CFC050003B33B7 /* he.png in Resources */,
 				B80C107A260B358B00298090 /* アセット 15_1.png in Resources */,
+				B8E9F2BC26121B2A00DC8055 /* 102.png in Resources */,
 				B84853E125BD9786003B33B7 /* アセット 10.png in Resources */,
 				B84854D225CFC09C003B33B7 /* wa.png in Resources */,
 				B848536525BD255E003B33B7 /* Assets.xcassets in Resources */,
@@ -552,6 +583,7 @@
 				B84854B425CFC07B003B33B7 /* yo.png in Resources */,
 				B80C10CD260B5E4C00298090 /* jyuu.png in Resources */,
 				B84853C225BD9607003B33B7 /* アセット 5.png in Resources */,
+				B8E9F2AF26121ABA00DC8055 /* 30.png in Resources */,
 				B848549125CFC059003B33B7 /* ma.png in Resources */,
 				B848540F25CFBFA3003B33B7 /* o.png in Resources */,
 				B848548225CFC04B003B33B7 /* fu.png in Resources */,
@@ -562,6 +594,7 @@
 				B84853B025BD8E61003B33B7 /* アセット 1.png in Resources */,
 				B80C10AA260B5D3C00298090 /* san.png in Resources */,
 				B848542D25CFBFC9003B33B7 /* sa.png in Resources */,
+				B8E9F2B426121AC000DC8055 /* 40.png in Resources */,
 				B80C10B4260B5D9000298090 /* go.png in Resources */,
 				B80C10AF260B5D7100298090 /* yonn.png in Resources */,
 				B84854A525CFC06F003B33B7 /* mo.png in Resources */,
@@ -602,7 +635,10 @@
 				B84853AB25BD8AF0003B33B7 /* characterListViewController.swift in Sources */,
 				B8A62E2E2610510200B92C1C /* manynumberDetailViewController.swift in Sources */,
 				B80C1082260B3ED600298090 /* numberListViewController.swift in Sources */,
+				B8A62E3B2611752100B92C1C /* aisatuDetailViewController.swift in Sources */,
+				B8E9F2C62612B9C500DC8055 /* CollectionViewCell.swift in Sources */,
 				B80C10A0260B594700298090 /* numberDetailViewController.swift in Sources */,
+				B8A62E402611BF0300B92C1C /* UIColor+hex.swift in Sources */,
 				B848535E25BD2556003B33B7 /* SceneDelegate.swift in Sources */,
 				B84853EB25BDB6EF003B33B7 /* characterDetailViewController.swift in Sources */,
 			);

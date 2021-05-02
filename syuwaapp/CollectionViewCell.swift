@@ -1,31 +1,19 @@
 //
-//  numberListViewController.swift
+//  CollectionViewCell.swift
 //  syuwaapp
 //
-//  Created by 中井日向子 on 2021/03/24.
+//  Created by 中井日向子 on 2021/03/29.
 //
 
 import UIKit
 
-class numberListViewController: UIViewController {
-    @IBOutlet var suujiButton: UIButton!
-    @IBOutlet var jyuuButton: UIButton!
-    @IBOutlet var hyakuButton: UIButton!
+class CollectionViewCell: UIViewController {
     
-    
-    let cornerRadius: CGFloat = 30
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        suujiButton.layer.cornerRadius = cornerRadius
-        jyuuButton.layer.cornerRadius = cornerRadius
-        hyakuButton.layer.cornerRadius = cornerRadius
-        
 
         // Do any additional setup after loading the view.
-        
-       
-        
     }
     
 

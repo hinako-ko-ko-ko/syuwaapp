@@ -9,7 +9,7 @@ import UIKit
 
 class kanjinumberDetailViewController: UIViewController {
     let numberArray: [String] = ["10","20","30","40","50","60","70","80","90",]
-    let images : [String] = ["iti.png","nii.png","san.png","yonn.png","go.png","roku.png","nana.png","hati.png","kyu.png","zero.png",]
+    let images : [String] = ["10.png","20.png","30.png","402.png","go.png","roku.png","nana.png","hati.png","kyu.png","zero.png",]
     let details :[String] =
     ["人差し指を前に折り曲げる","10の手に中指を曲げて加える","20の手に薬指を曲げて加える","30の手に小指を曲げて加える","親指を曲げてほかの指は握る","50の手に人差し指を曲げて加える","60の手に中指を加える","70の手に薬指を加える","80の手に小指を加える",]
     
