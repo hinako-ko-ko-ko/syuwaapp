@@ -21,6 +21,8 @@
 		B80C10C8260B5E4800298090 /* kyu.png in Resources */ = {isa = PBXBuildFile; fileRef = B80C10C7260B5E4800298090 /* kyu.png */; };
 		B80C10CD260B5E4C00298090 /* jyuu.png in Resources */ = {isa = PBXBuildFile; fileRef = B80C10CC260B5E4C00298090 /* jyuu.png */; };
 		B840B374263EF53E00C4F82B /* AlphabetCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B840B373263EF53E00C4F82B /* AlphabetCollectionViewCell.swift */; };
+		B840B3C826635C0C00C4F82B /* gojyuuonnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B840B3C726635C0B00C4F82B /* gojyuuonnViewController.swift */; };
+		B840B3CD266367C400C4F82B /* gojyuuonndetaillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B840B3CC266367C400C4F82B /* gojyuuonndetaillViewController.swift */; };
 		B848535C25BD2556003B33B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B848535B25BD2556003B33B7 /* AppDelegate.swift */; };
 		B848535E25BD2556003B33B7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B848535D25BD2556003B33B7 /* SceneDelegate.swift */; };
 		B848536025BD2556003B33B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B848535F25BD2556003B33B7 /* ViewController.swift */; };
@@ -140,6 +142,8 @@
 		B80C10C7260B5E4800298090 /* kyu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kyu.png; sourceTree = "<group>"; };
 		B80C10CC260B5E4C00298090 /* jyuu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jyuu.png; sourceTree = "<group>"; };
 		B840B373263EF53E00C4F82B /* AlphabetCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphabetCollectionViewCell.swift; sourceTree = "<group>"; };
+		B840B3C726635C0B00C4F82B /* gojyuuonnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gojyuuonnViewController.swift; sourceTree = "<group>"; };
+		B840B3CC266367C400C4F82B /* gojyuuonndetaillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gojyuuonndetaillViewController.swift; sourceTree = "<group>"; };
 		B848535825BD2556003B33B7 /* syuwaapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = syuwaapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B848535B25BD2556003B33B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B848535D25BD2556003B33B7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -292,6 +296,7 @@
 				B8E9F2C026121C0900DC8055 /* 402.png */,
 				B848535B25BD2556003B33B7 /* AppDelegate.swift */,
 				B8A62E02260F11A500B92C1C /* Main.storyboard */,
+				B840B3C726635C0B00C4F82B /* gojyuuonnViewController.swift */,
 				B8A62E08260F124B00B92C1C /* kanjinumberDetailViewController.swift */,
 				B80C109F260B594700298090 /* numberDetailViewController.swift */,
 				B80C1081260B3ED600298090 /* numberListViewController.swift */,
@@ -309,6 +314,7 @@
 				B8A62E3A2611752100B92C1C /* aisatuDetailViewController.swift */,
 				B8A62E3F2611BF0100B92C1C /* UIColor+hex.swift */,
 				B840B373263EF53E00C4F82B /* AlphabetCollectionViewCell.swift */,
+				B840B3CC266367C400C4F82B /* gojyuuonndetaillViewController.swift */,
 			);
 			path = syuwaapp;
 			sourceTree = "<group>";
@@ -642,7 +648,9 @@
 				B8A62E3B2611752100B92C1C /* aisatuDetailViewController.swift in Sources */,
 				B8E9F2C62612B9C500DC8055 /* CollectionViewCell.swift in Sources */,
 				B80C10A0260B594700298090 /* numberDetailViewController.swift in Sources */,
+				B840B3CD266367C400C4F82B /* gojyuuonndetaillViewController.swift in Sources */,
 				B8A62E402611BF0300B92C1C /* UIColor+hex.swift in Sources */,
+				B840B3C826635C0C00C4F82B /* gojyuuonnViewController.swift in Sources */,
 				B848535E25BD2556003B33B7 /* SceneDelegate.swift in Sources */,
 				B84853EB25BDB6EF003B33B7 /* characterDetailViewController.swift in Sources */,
 			);
