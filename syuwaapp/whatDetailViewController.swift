@@ -8,36 +8,26 @@
 import UIKit
 
 class whatDetailViewController: UIViewController {
-    let characterArray: [String] = ["はじめまして","おはよう","こんにちは","こんばんは","ありがとう","さようなら","ごめんなさい","よろしくお願いします","お久しぶりです","どういたしまして","おめでとう"]
-    let images : [String] = ["hajimemasite.png","ohayougozaimasu.png","konnnitiha.png","konnbannha.png","arigatougozaimasu.png","sayounara.png","gomennnasai.png","yorosikuonegaisimasu.png","ohisasiburidesu.png","douitasimasite.png","omedetougozaimasu.png"]
+    let characterArray: [String] = ["なに","いつ","どこ","だれ","なぜ","どうですか"]
+    let images : [String] = ["nanai1.png","itu1.png","doko1.png","dare1.png","naze1.png","doudesuka1.png"]
     
-    let images2: [String] = ["hajimemasite2.png","ohayougozaimasu2.png","konnnitiha2.png","konnbannha2.png","arigatougozaimasu2.png","sayounara2.png","gomennnasai2.png","yorosikuonegaisimasu2.png","ohisasiburidesu2.png","douitasimasite2.png","omedetougozaimasu2.png"]
-    let images3: [String] = ["hajimemasite3.png","ohayougozaimasu3.png","ohayougozaimasu3.png","ohayougozaimasu3.png","arigatougozaimasu3.png","sayounara3.png","gomennnasai3.png","yorosikuonegaisimasu3.png","ohisasiburidesu3.png","douitasimasite3.png","omedetougozaimasu3.png"]
-    let images4: [String] = ["hajimemasite4.png","ohayougozaimasu4.png","ohayougozaimasu4.png","ohayougozaimasu4.png","arigatougozaimasu4.png","sayounara4.png","gomenn4.png","yorosikuonegaisimasu4.png","ohisasiburidesu4.png","douitasimasite4.png","omedetougozaimasu4.png",]
+    let images2: [String] = ["nanai2.png","itu2.png","doko2.png","dare2.png","naze2.png","doudesuka2.png"]
+    let images3: [String] = ["nanai3.png","itu3.png","nanai1.png","dare3.png","naze3.png","doudesuka3.png"]
+    let images4: [String] = ["nanai4.png","itu4.png","nanai2.png","dare4.png","naze4.png","doudesuka4.png"]
     let details :[String] =
-        ["左手の甲に右手を乗せてから\n右手の人差し指だけを伸ばしてあげる",
-         "こめかみに当てた右手の拳を下ろす"
-         ,"右手の人差し指と中指を立てて\n額に当てる"
-         ,"両手の手のひらを顔の前で交差させる"
-         ,"左手の甲に右手を直角に乗せる"
-         ,"右手の手のひらを前に向ける"
-         ,"右手の親指と人差し指で眉間をつまむ"
-         ,"手を握って耳に当てて横にスライドさせる"
-         ,"両手の甲を胸の前で合わせる"
-         ,"小指を立てて顎に当てる"
-         ,"両手の指を付け合わせる"]
+        ["人差し指を立てて左右に振る",
+         "両手を手首で\n交差させるように縦に重ねる"
+         ,"指先を折り曲げて体の前に置く"
+         ,"右手の指を曲げて頬に当てる"
+         ,"左手の手のひらの下に\n人差し指を伸ばした右手を置く"
+         ,"手のひらを上に向けて横に動かす"]
     let details2 :[String] =
-        ["両手の人差し指を立てて\n左右から近づけて合わせる"
-         ,"左右の人差し指を向かい合わせて\n同時に曲げお辞儀させる"
-         ,"左右の人差し指を向かい合わせて\n同時に曲げお辞儀させる"
-         ,"左右の人差し指を向かい合わせて\n同時に曲げお辞儀させる"
-         ,"右手を真上に上げる"
-         ,"手のひらを横に振る"
-         ,"伸ばした手で拝む仕草をする"
-         ,"伸ばした手で拝む仕草をする"
-         ,"両手の甲を離す"
-         ,"顎で２回トントンする"
-         ,"両手を上へ上げながら\n指を開く"]
+        ["手のひらを前に出す"
+         ,"同時に親指から順に折り曲げる"
+         ,"人差し指を立てて左右に振る"
+         ,"右手を前に数回出す"
+         ,"右手を前に向かって潜らせる"
+         ,"手のひらを前に出す"]
     
     var index = 0
     @IBOutlet var imageView: UIImageView!
