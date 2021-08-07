@@ -5,13 +5,11 @@
 //  Created by 中井日向子 on 2021/03/29.
 //
 import UIKit
-class aisatuDetailViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
+class suujiDetailViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
     
     @IBOutlet var collectionView: UICollectionView!
     
-    let array = ["あ","い","う","え","お","か","き","く","け","こ","さ","し","す","せ","そ","た","ち","つ","て","と","な","に","ぬ","ね","の","は","ひ","ふ","へ","ほ","ま","み","む","め","も","や","ゆ","よ","ら","り","る","れ","ろ","わ","を","ん"]
-    
-    
+    let array = ["はじめまして","おはよう","こんにちは","こんばんは","ありがとう","さようなら","ごめんなさい","よろしくお願いします","お久しぶりです","どういたしまして","おめでとう"]
     var index = 0
     
     override func viewDidLoad() {
@@ -28,21 +26,20 @@ class aisatuDetailViewController: UIViewController, UICollectionViewDelegate, UI
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath) as! AlphabetCollectionViewCell
         
-      
         cell.label.text = array[indexPath.row]
         cell.label.textColor = .black
         return cell
     }
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
        index = indexPath.row
-        performSegue(withIdentifier: "tochallenge", sender: self)
+        print(indexPath.row)
+        performSegue(withIdentifier: "toput", sender: self)
     }
    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if (segue.identifier == "tochallenge") {
-            let destination = segue.destination as! gojyuuonndetaillViewController
-            destination.index = self.index
-        }
+        if (segue.identifier == "toput") {
+            let destination = segue.destination as! todoDetailViewController
+            destination.index = self.index }
             }//prepareを使って次の画面にindexを渡す
 }
 

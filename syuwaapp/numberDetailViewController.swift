@@ -9,9 +9,9 @@ import UIKit
 
 class numberDetailViewController: UIViewController {
     let numberArray: [String] = ["1","2","3","4","5","6","7","8","9","0",]
-    let images : [String] = ["iti.png","nii.png","san.png","yonn.png","go.png","roku.png","nana.png","hati.png","kyu.png","zero.png",]
+    let images : [String] = ["2iti.png","2ni_1.png","2san.png","2yon.png","2go.png","2roku.png","2nana.png","2hati.png","2kyuu.png","2zero.png",]
     let details :[String] =
-        ["人差し指を立てる","","２の手に薬指を加える","３の手に小指を加える","親指を横に伸ばし、他の四本の指を握る","手の甲を相手に向けて、親指と人差し指でL字を作る","６の手に中指を加える","７の手に薬指を加える","８の手に小指を加える","小指が相手に見えるようにして丸めた手が「０」に見えるようにする",]
+        ["人差し指を立てる","人差し指と中指を立てる","人差し指と中指と薬指を立てる","親指以外の四本の指を立てる","親指を横に向ける","手を横にして\n親指と人差し指を伸ばす","手を横にして\n親指と人差し指と中指を伸ばす","手を横にして\n小指以外の四本の指を伸ばす","手を横にして\n指を五本とも伸ばす","人差し指と親指で輪を作る",]
     
     var index = 0
     @IBOutlet var imageView: UIImageView!
