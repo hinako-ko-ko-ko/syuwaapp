@@ -18,7 +18,6 @@ class numberListViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         suujiButton.layer.cornerRadius = cornerRadius
-        jyuuButton.layer.cornerRadius = cornerRadius
         hyakuButton.layer.cornerRadius = cornerRadius
         
 

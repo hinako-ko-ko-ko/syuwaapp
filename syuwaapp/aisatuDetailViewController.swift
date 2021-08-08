@@ -28,7 +28,7 @@ class aisatuDetailViewController: UIViewController, UICollectionViewDelegate, UI
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath) as! AlphabetCollectionViewCell
         
-        cell.backgroundColor = .yellow
+        
         cell.label.text = array[indexPath.row]
         cell.label.textColor = .black
         return cell
