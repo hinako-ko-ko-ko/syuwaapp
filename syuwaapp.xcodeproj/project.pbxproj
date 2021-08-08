@@ -271,6 +271,20 @@
 		B88CE71526BEADD600CE03EB /* 2san.png in Resources */ = {isa = PBXBuildFile; fileRef = B88CE70B26BEADD500CE03EB /* 2san.png */; };
 		B88CE71626BEADD600CE03EB /* 2zero.png in Resources */ = {isa = PBXBuildFile; fileRef = B88CE70C26BEADD600CE03EB /* 2zero.png */; };
 		B88CE71726BEADD600CE03EB /* 2yon.png in Resources */ = {isa = PBXBuildFile; fileRef = B88CE70D26BEADD600CE03EB /* 2yon.png */; };
+		B88CE71926BED80400CE03EB /* 2itioku.png in Resources */ = {isa = PBXBuildFile; fileRef = B88CE71826BED80300CE03EB /* 2itioku.png */; };
+		B88CE71B26BED80C00CE03EB /* 2hyaku.png in Resources */ = {isa = PBXBuildFile; fileRef = B88CE71A26BED80C00CE03EB /* 2hyaku.png */; };
+		B88CE71D26BED81100CE03EB /* 2senn.png in Resources */ = {isa = PBXBuildFile; fileRef = B88CE71C26BED81000CE03EB /* 2senn.png */; };
+		B88CE72826BF6E0400CE03EB /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = B88CE71E26BF6E0100CE03EB /* 4.png */; };
+		B88CE72926BF6E0400CE03EB /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = B88CE71F26BF6E0200CE03EB /* 2.png */; };
+		B88CE72A26BF6E0400CE03EB /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = B88CE72026BF6E0200CE03EB /* 6.png */; };
+		B88CE72B26BF6E0400CE03EB /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = B88CE72126BF6E0200CE03EB /* 3.png */; };
+		B88CE72C26BF6E0400CE03EB /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = B88CE72226BF6E0200CE03EB /* 7.png */; };
+		B88CE72D26BF6E0400CE03EB /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = B88CE72326BF6E0300CE03EB /* 8.png */; };
+		B88CE72E26BF6E0400CE03EB /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = B88CE72426BF6E0300CE03EB /* 5.png */; };
+		B88CE72F26BF6E0400CE03EB /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = B88CE72526BF6E0300CE03EB /* 1.png */; };
+		B88CE73026BF6E0400CE03EB /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = B88CE72626BF6E0400CE03EB /* 9.png */; };
+		B88CE73126BF6E0400CE03EB /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = B88CE72726BF6E0400CE03EB /* 0.png */; };
+		B88CE73326BF72AD00CE03EB /* gyouListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88CE73226BF72AD00CE03EB /* gyouListViewController.swift */; };
 		B8A62E04260F11A500B92C1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8A62E02260F11A500B92C1C /* Main.storyboard */; };
 		B8A62E09260F124B00B92C1C /* kanjinumberDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A62E08260F124B00B92C1C /* kanjinumberDetailViewController.swift */; };
 		B8A62E0E260F737A00B92C1C /* ジュウ.png in Resources */ = {isa = PBXBuildFile; fileRef = B8A62E0D260F737A00B92C1C /* ジュウ.png */; };
@@ -576,6 +590,20 @@
 		B88CE70B26BEADD500CE03EB /* 2san.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2san.png; sourceTree = "<group>"; };
 		B88CE70C26BEADD600CE03EB /* 2zero.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2zero.png; sourceTree = "<group>"; };
 		B88CE70D26BEADD600CE03EB /* 2yon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2yon.png; sourceTree = "<group>"; };
+		B88CE71826BED80300CE03EB /* 2itioku.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2itioku.png; sourceTree = "<group>"; };
+		B88CE71A26BED80C00CE03EB /* 2hyaku.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2hyaku.png; sourceTree = "<group>"; };
+		B88CE71C26BED81000CE03EB /* 2senn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2senn.png; sourceTree = "<group>"; };
+		B88CE71E26BF6E0100CE03EB /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		B88CE71F26BF6E0200CE03EB /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		B88CE72026BF6E0200CE03EB /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		B88CE72126BF6E0200CE03EB /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		B88CE72226BF6E0200CE03EB /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		B88CE72326BF6E0300CE03EB /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		B88CE72426BF6E0300CE03EB /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		B88CE72526BF6E0300CE03EB /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		B88CE72626BF6E0400CE03EB /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
+		B88CE72726BF6E0400CE03EB /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
+		B88CE73226BF72AD00CE03EB /* gyouListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gyouListViewController.swift; sourceTree = "<group>"; };
 		B8A62E03260F11A500B92C1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B8A62E08260F124B00B92C1C /* kanjinumberDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kanjinumberDetailViewController.swift; sourceTree = "<group>"; };
 		B8A62E0D260F737A00B92C1C /* ジュウ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ジュウ.png"; sourceTree = "<group>"; };
@@ -646,6 +674,7 @@
 			isa = PBXGroup;
 			children = (
 				B88CE6D626BD88D800CE03EB /* AlphabetCollectionViewCell.swift */,
+				B88CE73226BF72AD00CE03EB /* gyouListViewController.swift */,
 				B8E9F2C52612B9C500DC8055 /* CollectionViewCell.swift */,
 				B88CE6D426BD754C00CE03EB /* whatDetailViewController.swift */,
 				B8E9F2A426121A6300DC8055 /* 10.png */,
@@ -783,6 +812,19 @@
 		B8A62E1B2610243F00B92C1C /* AccentImage */ = {
 			isa = PBXGroup;
 			children = (
+				B88CE72726BF6E0400CE03EB /* 0.png */,
+				B88CE72526BF6E0300CE03EB /* 1.png */,
+				B88CE71F26BF6E0200CE03EB /* 2.png */,
+				B88CE72126BF6E0200CE03EB /* 3.png */,
+				B88CE71E26BF6E0100CE03EB /* 4.png */,
+				B88CE72426BF6E0300CE03EB /* 5.png */,
+				B88CE72026BF6E0200CE03EB /* 6.png */,
+				B88CE72226BF6E0200CE03EB /* 7.png */,
+				B88CE72326BF6E0300CE03EB /* 8.png */,
+				B88CE72626BF6E0400CE03EB /* 9.png */,
+				B88CE71C26BED81000CE03EB /* 2senn.png */,
+				B88CE71A26BED80C00CE03EB /* 2hyaku.png */,
+				B88CE71826BED80300CE03EB /* 2itioku.png */,
 				B88CE70726BEADD500CE03EB /* 2go.png */,
 				B88CE70426BEADD400CE03EB /* 2hati.png */,
 				B88CE70826BEADD500CE03EB /* 2iti.png */,
@@ -1064,6 +1106,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B88CE72D26BF6E0400CE03EB /* 8.png in Resources */,
 				B88CE6F226BE863400CE03EB /* nani2.png in Resources */,
 				B84854DC25CFC0A8003B33B7 /* nn.png in Resources */,
 				B88CE5EA26B0351600CE03EB /* otu2.png in Resources */,
@@ -1079,6 +1122,7 @@
 				B88CE66226B6BB4E00CE03EB /* ohisasiburidesu4.png in Resources */,
 				B88CE62D26B19F1A00CE03EB /* ohayougozaimasu.png in Resources */,
 				B80C10C8260B5E4800298090 /* kyu.png in Resources */,
+				B88CE72E26BF6E0400CE03EB /* 5.png in Resources */,
 				B88CE6F126BE863400CE03EB /* doko2.png in Resources */,
 				B88CE6D126BD6E1400CE03EB /* 2u.png in Resources */,
 				B848541425CFBFAB003B33B7 /* ka.png in Resources */,
@@ -1089,10 +1133,12 @@
 				B88CE6AB26BD6E1300CE03EB /* 2he.png in Resources */,
 				B848547825CFC040003B33B7 /* ha.png in Resources */,
 				B88CE71426BEADD600CE03EB /* 2kyuu.png in Resources */,
+				B88CE72F26BF6E0400CE03EB /* 1.png in Resources */,
 				B88CE6B326BD6E1300CE03EB /* 2to.png in Resources */,
 				B88CE6D226BD6E1400CE03EB /* 2ha.png in Resources */,
 				B88CE71726BEADD600CE03EB /* 2yon.png in Resources */,
 				B88CE6C726BD6E1300CE03EB /* 2a.png in Resources */,
+				B88CE72826BF6E0400CE03EB /* 4.png in Resources */,
 				B88CE61526B0601300CE03EB /* gomenn.png in Resources */,
 				B88CE67726B6CFFB00CE03EB /* zero.png in Resources */,
 				B88CE6B026BD6E1300CE03EB /* 2ra.png in Resources */,
@@ -1102,6 +1148,7 @@
 				B88CE6F526BE863400CE03EB /* nani3.png in Resources */,
 				B848542325CFBFBA003B33B7 /* ke.png in Resources */,
 				B848547325CFC03B003B33B7 /* no.png in Resources */,
+				B88CE71D26BED81100CE03EB /* 2senn.png in Resources */,
 				B80C10BE260B5E2100298090 /* hati.png in Resources */,
 				B88CE66426B6BB4E00CE03EB /* ohisasiburidesu2.png in Resources */,
 				B88CE6CE26BD6E1400CE03EB /* 2se.png in Resources */,
@@ -1133,12 +1180,14 @@
 				B88CE6B226BD6E1300CE03EB /* 2nn.png in Resources */,
 				B848545525CFBFF6003B33B7 /* te.png in Resources */,
 				B88CE5C426AF155D00CE03EB /* はじめま２.png in Resources */,
+				B88CE71926BED80400CE03EB /* 2itioku.png in Resources */,
 				B88CE6CB26BD6E1300CE03EB /* 2i.png in Resources */,
 				B84853CF25BD96B9003B33B7 /* アセット 7.png in Resources */,
 				B88CE65A26B6B4F300CE03EB /* yorosikuonegaisimasu3.png in Resources */,
 				B88CE5F626B03E5000CE03EB /* kon2.png in Resources */,
 				B88CE5BC26AF0D3B00CE03EB /* 初めましてのやつ２.png in Resources */,
 				B88CE64D26B3001E00CE03EB /* gomennnasai.png in Resources */,
+				B88CE71B26BED80C00CE03EB /* 2hyaku.png in Resources */,
 				B88CE5E226B0317B00CE03EB /* ome3.png in Resources */,
 				B88CE64826B2FCEA00CE03EB /* arigatougozaimasu2.png in Resources */,
 				B88CE65B26B6B4F300CE03EB /* yorosikuonegaisimasu2.png in Resources */,
@@ -1171,6 +1220,7 @@
 				B84853E625BD9DFB003B33B7 /* アセット 11.png in Resources */,
 				B88CE6C326BD6E1300CE03EB /* 2te.png in Resources */,
 				B88CE63A26B2F8A800CE03EB /* arigatougozaimasu4.png in Resources */,
+				B88CE73026BF6E0400CE03EB /* 9.png in Resources */,
 				B88CE5F426B03E5000CE03EB /* kon3.png in Resources */,
 				B88CE6CA26BD6E1300CE03EB /* 2ni.png in Resources */,
 				B88CE6C526BD6E1300CE03EB /* 2ro.png in Resources */,
@@ -1241,7 +1291,10 @@
 				B88CE63426B1A0A300CE03EB /* konnnitiha.png in Resources */,
 				B88CE60726B04FA500CE03EB /* arigato3.png in Resources */,
 				B88CE6C226BD6E1300CE03EB /* 2so.png in Resources */,
+				B88CE72C26BF6E0400CE03EB /* 7.png in Resources */,
 				B848541E25CFBFB6003B33B7 /* ku.png in Resources */,
+				B88CE72926BF6E0400CE03EB /* 2.png in Resources */,
+				B88CE72A26BF6E0400CE03EB /* 6.png in Resources */,
 				B84853CA25BD9669003B33B7 /* アセット 6.png in Resources */,
 				B88CE71026BEADD600CE03EB /* 2ni_1.png in Resources */,
 				B88CE71326BEADD600CE03EB /* 2roku.png in Resources */,
@@ -1269,6 +1322,7 @@
 				B848540F25CFBFA3003B33B7 /* o.png in Resources */,
 				B88CE64126B2FC7600CE03EB /* sayounara2.png in Resources */,
 				B848548225CFC04B003B33B7 /* fu.png in Resources */,
+				B88CE72B26BF6E0400CE03EB /* 3.png in Resources */,
 				B848549B25CFC062003B33B7 /* mu.png in Resources */,
 				B84853FB25CF94BF003B33B7 /* a.png in Resources */,
 				B88CE63726B1A26300CE03EB /* konnbannha2.png in Resources */,
@@ -1308,6 +1362,7 @@
 				B88CE66B26B6BED600CE03EB /* douitasimasite.png in Resources */,
 				B848546425CFC01B003B33B7 /* ni.png in Resources */,
 				B848543225CFBFCD003B33B7 /* si.png in Resources */,
+				B88CE73126BF6E0400CE03EB /* 0.png in Resources */,
 				B88CE67526B6C1D400CE03EB /* omedetougozaimasu.png in Resources */,
 				B88CE6BF26BD6E1300CE03EB /* 2mi.png in Resources */,
 				B88CE6FD26BE863400CE03EB /* nani1.png in Resources */,
@@ -1359,6 +1414,7 @@
 				B8A62E3B2611752100B92C1C /* aisatuDetailViewController.swift in Sources */,
 				B8E9F2C62612B9C500DC8055 /* CollectionViewCell.swift in Sources */,
 				B826FB0626AD0AEA00CC1497 /* todoDetailViewController.swift in Sources */,
+				B88CE73326BF72AD00CE03EB /* gyouListViewController.swift in Sources */,
 				B80C10A0260B594700298090 /* numberDetailViewController.swift in Sources */,
 				B840B3CD266367C400C4F82B /* gojyuuonndetaillViewController.swift in Sources */,
 				B8A62E402611BF0300B92C1C /* UIColor+hex.swift in Sources */,

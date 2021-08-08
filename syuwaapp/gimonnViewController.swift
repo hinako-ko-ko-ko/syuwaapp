@@ -38,7 +38,7 @@ class gimonnViewController: UIViewController, UICollectionViewDelegate, UICollec
    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if (segue.identifier == "totouch") {
-            let destination = segue.destination as! todoDetailViewController
+            let destination = segue.destination as! whatDetailViewController
             destination.index = self.index }
             }//prepareを使って次の画面にindexを渡す
 }

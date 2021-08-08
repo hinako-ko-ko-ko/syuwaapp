@@ -9,11 +9,11 @@ import UIKit
 
 class whatDetailViewController: UIViewController {
     let characterArray: [String] = ["なに","いつ","どこ","だれ","なぜ","どうですか"]
-    let images : [String] = ["nanai1.png","itu1.png","doko1.png","dare1.png","naze1.png","doudesuka1.png"]
+    let images : [String] = ["nani1.png","itu1.png","doko1.png","dare1.png","naze1.png","doudesuka1.png"]
     
-    let images2: [String] = ["nanai2.png","itu2.png","doko2.png","dare2.png","naze2.png","doudesuka2.png"]
-    let images3: [String] = ["nanai3.png","itu3.png","nanai1.png","dare3.png","naze3.png","doudesuka3.png"]
-    let images4: [String] = ["nanai4.png","itu4.png","nanai2.png","dare4.png","naze4.png","doudesuka4.png"]
+    let images2: [String] = ["nani2.png","itu2.png","doko2.png","dare2.png","naze2.png","doudesuka2.png"]
+    let images3: [String] = ["nani3.png","itu3.png","nani1.png","dare3.png","naze3.png","doudesuka3.png"]
+    let images4: [String] = ["nani4.png","itu4.png","nani2.png","dare4.png","naze4.png","doudesuka4.png"]
     let details :[String] =
         ["人差し指を立てて左右に振る",
          "両手を手首で\n交差させるように縦に重ねる"

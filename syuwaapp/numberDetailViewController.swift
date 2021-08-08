@@ -9,7 +9,7 @@ import UIKit
 
 class numberDetailViewController: UIViewController {
     let numberArray: [String] = ["1","2","3","4","5","6","7","8","9","0",]
-    let images : [String] = ["2iti.png","2ni_1.png","2san.png","2yon.png","2go.png","2roku.png","2nana.png","2hati.png","2kyuu.png","2zero.png",]
+    let images : [String] = ["1.png","2.png","3.png","4.png","5.png","6.png","7.png","8.png","9.png","0.png",]
     let details :[String] =
         ["人差し指を立てる","人差し指と中指を立てる","人差し指と中指と薬指を立てる","親指以外の四本の指を立てる","親指を横に向ける","手を横にして\n親指と人差し指を伸ばす","手を横にして\n親指と人差し指と中指を伸ばす","手を横にして\n小指以外の四本の指を伸ばす","手を横にして\n指を五本とも伸ばす","人差し指と親指で輪を作る",]
     

@@ -9,7 +9,7 @@ import UIKit
 
 class manynumberDetailViewController: UIViewController {
     let numberArray: [String] = ["100","1000","10000",]
-    let images : [String] = ["iti.png","nii.png","san.png","yonn.png","go.png","roku.png","nana.png","hati.png","kyu.png","zero.png",]
+    let images : [String] = ["2hyaku.png","2senn.png","2itioku.png",]
     let details :[String] =
     ["漢数字の「一」を表し、人差し指を上に跳ね上げる","小指を立てて他の指先を親指に合わせ右に動かす相手に指先を見せる","「１」を」表してから全部の指を閉じて「万」の位を表す",]
     

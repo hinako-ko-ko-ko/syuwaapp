@@ -7,19 +7,19 @@
 
 import UIKit
 
-class numberListViewController: UIViewController {
-    @IBOutlet var suujiButton: UIButton!
-    @IBOutlet var jyuuButton: UIButton!
-    @IBOutlet var hyakuButton: UIButton!
+class gyouListViewController: UIViewController {
+    @IBOutlet var agyouButton: UIButton!
+    @IBOutlet var igyouButton: UIButton!
+    @IBOutlet var ugyouButton: UIButton!
     
     
-    let cornerRadius: CGFloat = 0
+    let cornerRadius: CGFloat = 30
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        suujiButton.layer.cornerRadius = cornerRadius
-        jyuuButton.layer.cornerRadius = cornerRadius
-        hyakuButton.layer.cornerRadius = cornerRadius
+        agyouButton.layer.cornerRadius = cornerRadius
+        igyouButton.layer.cornerRadius = cornerRadius
+        ugyouButton.layer.cornerRadius = cornerRadius
         
 
         // Do any additional setup after loading the view.
