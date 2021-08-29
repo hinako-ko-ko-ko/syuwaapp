@@ -17,8 +17,8 @@ class ViewController: UIViewController {
             
             
              
-            learnbutton.backgroundColor = UIColor(hex: "E0FFFF")// ボタン背景色設定
-            learnbutton.backgroundColor = UIColor(hex: "E0FFFF")                                              // 背景色
+            learnbutton.backgroundColor = UIColor(hex: "FDF254")// ボタン背景色設定
+            learnbutton.backgroundColor = UIColor(hex: "FDF254")                                              // 背景色
             learnbutton.layer.borderWidth = 0                                             // 枠線の幅
             learnbutton.layer.borderColor = UIColor.blue.cgColor                            // 枠線の色
             learnbutton.layer.cornerRadius = 0

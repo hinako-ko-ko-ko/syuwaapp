@@ -96,6 +96,8 @@
 		B84854D225CFC09C003B33B7 /* wa.png in Resources */ = {isa = PBXBuildFile; fileRef = B84854D125CFC09C003B33B7 /* wa.png */; };
 		B84854D725CFC0A0003B33B7 /* wo.png in Resources */ = {isa = PBXBuildFile; fileRef = B84854D625CFC0A0003B33B7 /* wo.png */; };
 		B84854DC25CFC0A8003B33B7 /* nn.png in Resources */ = {isa = PBXBuildFile; fileRef = B84854DB25CFC0A8003B33B7 /* nn.png */; };
+		B88448B126DB259300ADD3CA /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88448B026DB259300ADD3CA /* QuizViewController.swift */; };
+		B88448B326DB25D200ADD3CA /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88448B226DB25D200ADD3CA /* ResultViewController.swift */; };
 		B88CE5AE26ADB35A00CE03EB /* はじめまして１.png in Resources */ = {isa = PBXBuildFile; fileRef = B88CE5AD26ADB35A00CE03EB /* はじめまして１.png */; };
 		B88CE5B026ADB35F00CE03EB /* 初めまして 2.png in Resources */ = {isa = PBXBuildFile; fileRef = B88CE5AF26ADB35F00CE03EB /* 初めまして 2.png */; };
 		B88CE5B226AF0ADF00CE03EB /* 男の人.png in Resources */ = {isa = PBXBuildFile; fileRef = B88CE5B126AF0ADF00CE03EB /* 男の人.png */; };
@@ -415,6 +417,8 @@
 		B84854D125CFC09C003B33B7 /* wa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wa.png; sourceTree = "<group>"; };
 		B84854D625CFC0A0003B33B7 /* wo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wo.png; sourceTree = "<group>"; };
 		B84854DB25CFC0A8003B33B7 /* nn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nn.png; sourceTree = "<group>"; };
+		B88448B026DB259300ADD3CA /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		B88448B226DB25D200ADD3CA /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		B88CE5AD26ADB35A00CE03EB /* はじめまして１.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "はじめまして１.png"; sourceTree = "<group>"; };
 		B88CE5AF26ADB35F00CE03EB /* 初めまして 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "初めまして 2.png"; sourceTree = "<group>"; };
 		B88CE5B126AF0ADF00CE03EB /* 男の人.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "男の人.png"; sourceTree = "<group>"; };
@@ -651,6 +655,8 @@
 		B848534F25BD2556003B33B7 = {
 			isa = PBXGroup;
 			children = (
+				B88448B226DB25D200ADD3CA /* ResultViewController.swift */,
+				B88448B026DB259300ADD3CA /* QuizViewController.swift */,
 				B826FB0526AD0AEA00CC1497 /* todoDetailViewController.swift */,
 				B826FB0326AD01F900CC1497 /* suujiDetailViewController.swift */,
 				B848535A25BD2556003B33B7 /* syuwaapp */,
@@ -1401,12 +1407,14 @@
 				B88CE65526B6AE5900CE03EB /* gimonnViewController.swift in Sources */,
 				B8F559E02675DBC700EF0F6B /* konnnitihaDetailViewController.swift in Sources */,
 				B8A62E09260F124B00B92C1C /* kanjinumberDetailViewController.swift in Sources */,
+				B88448B126DB259300ADD3CA /* QuizViewController.swift in Sources */,
 				B84853A325BD6CB9003B33B7 /* syuwaViewController.swift in Sources */,
 				B826FB0426AD01F900CC1497 /* suujiDetailViewController.swift in Sources */,
 				B848536025BD2556003B33B7 /* ViewController.swift in Sources */,
 				B848535C25BD2556003B33B7 /* AppDelegate.swift in Sources */,
 				B84853AB25BD8AF0003B33B7 /* characterListViewController.swift in Sources */,
 				B88CE6D726BD88D800CE03EB /* AlphabetCollectionViewCell.swift in Sources */,
+				B88448B326DB25D200ADD3CA /* ResultViewController.swift in Sources */,
 				B8A62E2E2610510200B92C1C /* manynumberDetailViewController.swift in Sources */,
 				B83E4A03267A40ED0035CE35 /* aisatunodetaillViewController.swift in Sources */,
 				B88CE6D526BD754C00CE03EB /* whatDetailViewController.swift in Sources */,
@@ -1606,7 +1614,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.litech.syuwaapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -1625,7 +1633,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.litech.syuwaapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
