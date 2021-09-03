@@ -30,7 +30,7 @@ let images =  ["2a.png","2i.png","2u.png","2e.png","2o.png","2ka.png","2ki.png",
 
         //quizArrayに問題文　３個の選択肢　答えの番号が入った配列を追加
         quizArray.append(["こんにちはの手話はどれか","2a.peg","選択肢２","選択肢３",2])
-        quizArray.append(["問題文２","選択肢１","選択肢２","選択肢３",1])
+        quizArray.append(["こんにちはの手話はどれか","選択肢１","選択肢２","選択肢３",1])
         quizArray.append(["問題文３","選択肢１","選択肢２","選択肢３",3])
          
         //問題文シャッフル
@@ -39,18 +39,42 @@ let images =  ["2a.png","2i.png","2u.png","2e.png","2o.png","2ka.png","2ki.png",
         // Do any additional setup after loading the view.
     }
     func choiceQuiz(){
-        //いちじ的にクイズを取り出しておく配列
-        let tmpArray = quizArray[0] as![Any]
-        
-        //問題文を表示
-        quizTextView.text = tmpArray[0] as? String
-        
-        //選択肢ボタンにそれぞれの選択肢をセット
-        choiceButton1.setTitle(tmpArray[1]as?String, for: .normal)
-        choiceButton2.setTitle(tmpArray[2]as?String, for: .normal)
-        choiceButton3.setTitle(tmpArray[3]as?String, for: .normal)
-    }
-    
+            //いちじ的にクイズを取り出しておく配列
+            var tmpArray = quizArray[0] as![Any]
+            // クイズの答えを取得
+            let answer = tmpArray[1] as! String
+            
+            // 写真をランダムで3枚取得
+            var choices = Array(images.shuffled()[0..<3])
+            
+            // 答えの画像を含んでいる場合は、もう一回取得し直す
+            while choices.contains(answer) {
+                choices = Array(images.shuffled()[0..<3])
+            }
+            
+            // 答えを何番目にするかランダムに決める
+            let answerIndex = Int.random(in: 0..<3)
+            // 答えをanswerIndex番目に代入
+            choices[answerIndex] = answer
+            
+            // ランダムな選択肢を配列に戻す
+            for i in 0..<3 {
+                tmpArray[i + 1] = choices[i]
+            }
+                    
+                    // 答えが何番目か保存
+                    tmpArray[4] = answerIndex + 1
+                    // 元の配列に戻す
+                    quizArray[0] = tmpArray
+                    
+                    //問題文を表示
+                    quizTextView.text = tmpArray[0] as? String
+                    
+                    //選択肢ボタンにそれぞれの選択肢をセット
+                    choiceButton1.setBackgroundImage(UIImage(named: tmpArray[1] as! String), for: .normal)
+                    choiceButton2.setBackgroundImage(UIImage(named: tmpArray[2] as! String), for: .normal)
+                    choiceButton3.setBackgroundImage(UIImage(named: tmpArray[3] as! String), for: .normal)
+                }
      func performSegueToResult(){
         performSegue(withIdentifier: "toResultView", sender: nil)
     }
