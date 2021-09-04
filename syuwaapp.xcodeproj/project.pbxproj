@@ -98,6 +98,29 @@
 		B84854DC25CFC0A8003B33B7 /* nn.png in Resources */ = {isa = PBXBuildFile; fileRef = B84854DB25CFC0A8003B33B7 /* nn.png */; };
 		B88448B126DB259300ADD3CA /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88448B026DB259300ADD3CA /* QuizViewController.swift */; };
 		B88448B326DB25D200ADD3CA /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88448B226DB25D200ADD3CA /* ResultViewController.swift */; };
+		B88448B526E25DA600ADD3CA /* 赤色.png in Resources */ = {isa = PBXBuildFile; fileRef = B88448B426E25DA500ADD3CA /* 赤色.png */; };
+		B88448B726E2671000ADD3CA /* デザイン.png in Resources */ = {isa = PBXBuildFile; fileRef = B88448B626E2670F00ADD3CA /* デザイン.png */; };
+		B88448B926E2677500ADD3CA /* デザイン２.png in Resources */ = {isa = PBXBuildFile; fileRef = B88448B826E2677500ADD3CA /* デザイン２.png */; };
+		B88448BB26E2784200ADD3CA /* デザイン３.png in Resources */ = {isa = PBXBuildFile; fileRef = B88448BA26E2784200ADD3CA /* デザイン３.png */; };
+		B88448BD26E2784E00ADD3CA /* デザイン４.png in Resources */ = {isa = PBXBuildFile; fileRef = B88448BC26E2784E00ADD3CA /* デザイン４.png */; };
+		B88448C026E27A4800ADD3CA /* デザイン５.png in Resources */ = {isa = PBXBuildFile; fileRef = B88448BE26E27A4800ADD3CA /* デザイン５.png */; };
+		B88448C126E27A4800ADD3CA /* デザイン６.png in Resources */ = {isa = PBXBuildFile; fileRef = B88448BF26E27A4800ADD3CA /* デザイン６.png */; };
+		B88448C426E27EA000ADD3CA /* デザイン8.png in Resources */ = {isa = PBXBuildFile; fileRef = B88448C226E27E9F00ADD3CA /* デザイン8.png */; };
+		B88448C526E27EA000ADD3CA /* デザイン7.png in Resources */ = {isa = PBXBuildFile; fileRef = B88448C326E27EA000ADD3CA /* デザイン7.png */; };
+		B88448C926E3617300ADD3CA /* QuiztwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88448C826E3617300ADD3CA /* QuiztwoViewController.swift */; };
+		B88448CB26E364FF00ADD3CA /* ResulttwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88448CA26E364FF00ADD3CA /* ResulttwoViewController.swift */; };
+		B88448CD26E36B0E00ADD3CA /* QuizthreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88448CC26E36B0E00ADD3CA /* QuizthreeViewController.swift */; };
+		B88448CF26E36BE800ADD3CA /* ResultthreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88448CE26E36BE800ADD3CA /* ResultthreeViewController.swift */; };
+		B88448D126E36E8900ADD3CA /* QuizfourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88448D026E36E8900ADD3CA /* QuizfourViewController.swift */; };
+		B88448D326E36FAC00ADD3CA /* ResultfourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88448D226E36FAC00ADD3CA /* ResultfourViewController.swift */; };
+		B88448D626E3734A00ADD3CA /* Design２.png in Resources */ = {isa = PBXBuildFile; fileRef = B88448D426E3734800ADD3CA /* Design２.png */; };
+		B88448D726E3734A00ADD3CA /* Design.png in Resources */ = {isa = PBXBuildFile; fileRef = B88448D526E3734900ADD3CA /* Design.png */; };
+		B88448D926E3760C00ADD3CA /* Design3.png in Resources */ = {isa = PBXBuildFile; fileRef = B88448D826E3760C00ADD3CA /* Design3.png */; };
+		B88448DB26E3794F00ADD3CA /* Design４.png in Resources */ = {isa = PBXBuildFile; fileRef = B88448DA26E3794F00ADD3CA /* Design４.png */; };
+		B88448E026E3835700ADD3CA /* Design5.png in Resources */ = {isa = PBXBuildFile; fileRef = B88448DC26E3835300ADD3CA /* Design5.png */; };
+		B88448E126E3835700ADD3CA /* Design6.png in Resources */ = {isa = PBXBuildFile; fileRef = B88448DD26E3835400ADD3CA /* Design6.png */; };
+		B88448E226E3835700ADD3CA /* Design8.png in Resources */ = {isa = PBXBuildFile; fileRef = B88448DE26E3835400ADD3CA /* Design8.png */; };
+		B88448E326E3835700ADD3CA /* Design7.png in Resources */ = {isa = PBXBuildFile; fileRef = B88448DF26E3835600ADD3CA /* Design7.png */; };
 		B88CE5AE26ADB35A00CE03EB /* はじめまして１.png in Resources */ = {isa = PBXBuildFile; fileRef = B88CE5AD26ADB35A00CE03EB /* はじめまして１.png */; };
 		B88CE5B026ADB35F00CE03EB /* 初めまして 2.png in Resources */ = {isa = PBXBuildFile; fileRef = B88CE5AF26ADB35F00CE03EB /* 初めまして 2.png */; };
 		B88CE5B226AF0ADF00CE03EB /* 男の人.png in Resources */ = {isa = PBXBuildFile; fileRef = B88CE5B126AF0ADF00CE03EB /* 男の人.png */; };
@@ -419,6 +442,29 @@
 		B84854DB25CFC0A8003B33B7 /* nn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nn.png; sourceTree = "<group>"; };
 		B88448B026DB259300ADD3CA /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		B88448B226DB25D200ADD3CA /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		B88448B426E25DA500ADD3CA /* 赤色.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "赤色.png"; sourceTree = "<group>"; };
+		B88448B626E2670F00ADD3CA /* デザイン.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "デザイン.png"; sourceTree = "<group>"; };
+		B88448B826E2677500ADD3CA /* デザイン２.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "デザイン２.png"; sourceTree = "<group>"; };
+		B88448BA26E2784200ADD3CA /* デザイン３.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "デザイン３.png"; sourceTree = "<group>"; };
+		B88448BC26E2784E00ADD3CA /* デザイン４.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "デザイン４.png"; sourceTree = "<group>"; };
+		B88448BE26E27A4800ADD3CA /* デザイン５.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "デザイン５.png"; sourceTree = "<group>"; };
+		B88448BF26E27A4800ADD3CA /* デザイン６.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "デザイン６.png"; sourceTree = "<group>"; };
+		B88448C226E27E9F00ADD3CA /* デザイン8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "デザイン8.png"; sourceTree = "<group>"; };
+		B88448C326E27EA000ADD3CA /* デザイン7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "デザイン7.png"; sourceTree = "<group>"; };
+		B88448C826E3617300ADD3CA /* QuiztwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuiztwoViewController.swift; sourceTree = "<group>"; };
+		B88448CA26E364FF00ADD3CA /* ResulttwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResulttwoViewController.swift; sourceTree = "<group>"; };
+		B88448CC26E36B0E00ADD3CA /* QuizthreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizthreeViewController.swift; sourceTree = "<group>"; };
+		B88448CE26E36BE800ADD3CA /* ResultthreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ResultthreeViewController.swift; path = syuwaapp/ResultthreeViewController.swift; sourceTree = "<group>"; };
+		B88448D026E36E8900ADD3CA /* QuizfourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizfourViewController.swift; sourceTree = "<group>"; };
+		B88448D226E36FAC00ADD3CA /* ResultfourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultfourViewController.swift; sourceTree = "<group>"; };
+		B88448D426E3734800ADD3CA /* Design２.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Design２.png"; sourceTree = "<group>"; };
+		B88448D526E3734900ADD3CA /* Design.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Design.png; sourceTree = "<group>"; };
+		B88448D826E3760C00ADD3CA /* Design3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Design3.png; sourceTree = "<group>"; };
+		B88448DA26E3794F00ADD3CA /* Design４.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Design４.png"; sourceTree = "<group>"; };
+		B88448DC26E3835300ADD3CA /* Design5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Design5.png; sourceTree = "<group>"; };
+		B88448DD26E3835400ADD3CA /* Design6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Design6.png; sourceTree = "<group>"; };
+		B88448DE26E3835400ADD3CA /* Design8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Design8.png; sourceTree = "<group>"; };
+		B88448DF26E3835600ADD3CA /* Design7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Design7.png; sourceTree = "<group>"; };
 		B88CE5AD26ADB35A00CE03EB /* はじめまして１.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "はじめまして１.png"; sourceTree = "<group>"; };
 		B88CE5AF26ADB35F00CE03EB /* 初めまして 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "初めまして 2.png"; sourceTree = "<group>"; };
 		B88CE5B126AF0ADF00CE03EB /* 男の人.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "男の人.png"; sourceTree = "<group>"; };
@@ -655,6 +701,12 @@
 		B848534F25BD2556003B33B7 = {
 			isa = PBXGroup;
 			children = (
+				B88448D226E36FAC00ADD3CA /* ResultfourViewController.swift */,
+				B88448D026E36E8900ADD3CA /* QuizfourViewController.swift */,
+				B88448CE26E36BE800ADD3CA /* ResultthreeViewController.swift */,
+				B88448CC26E36B0E00ADD3CA /* QuizthreeViewController.swift */,
+				B88448CA26E364FF00ADD3CA /* ResulttwoViewController.swift */,
+				B88448C826E3617300ADD3CA /* QuiztwoViewController.swift */,
 				B88448B226DB25D200ADD3CA /* ResultViewController.swift */,
 				B88448B026DB259300ADD3CA /* QuizViewController.swift */,
 				B826FB0526AD0AEA00CC1497 /* todoDetailViewController.swift */,
@@ -679,6 +731,14 @@
 		B848535A25BD2556003B33B7 /* syuwaapp */ = {
 			isa = PBXGroup;
 			children = (
+				B88448DC26E3835300ADD3CA /* Design5.png */,
+				B88448DD26E3835400ADD3CA /* Design6.png */,
+				B88448DF26E3835600ADD3CA /* Design7.png */,
+				B88448DE26E3835400ADD3CA /* Design8.png */,
+				B88448D526E3734900ADD3CA /* Design.png */,
+				B88448D426E3734800ADD3CA /* Design２.png */,
+				B88448DA26E3794F00ADD3CA /* Design４.png */,
+				B88448B426E25DA500ADD3CA /* 赤色.png */,
 				B88CE6D626BD88D800CE03EB /* AlphabetCollectionViewCell.swift */,
 				B88CE73226BF72AD00CE03EB /* gyouListViewController.swift */,
 				B8E9F2C52612B9C500DC8055 /* CollectionViewCell.swift */,
@@ -687,6 +747,7 @@
 				B8E9F2A926121AB300DC8055 /* 20.png */,
 				B8E9F2AE26121ABA00DC8055 /* 30.png */,
 				B8E9F2B326121AC000DC8055 /* 40.png */,
+				B88448D826E3760C00ADD3CA /* Design3.png */,
 				B8E9F2BB26121B2A00DC8055 /* 102.png */,
 				B88CE5B126AF0ADF00CE03EB /* 男の人.png */,
 				B88CE5B926AF0D3400CE03EB /* 初めましてのやつ.png */,
@@ -695,10 +756,18 @@
 				B88CE5BE26AF0E8200CE03EB /* 初めましてのコピー.png */,
 				B88CE5AD26ADB35A00CE03EB /* はじめまして１.png */,
 				B88CE5AF26ADB35F00CE03EB /* 初めまして 2.png */,
+				B88448B826E2677500ADD3CA /* デザイン２.png */,
+				B88448BA26E2784200ADD3CA /* デザイン３.png */,
+				B88448BC26E2784E00ADD3CA /* デザイン４.png */,
+				B88448BE26E27A4800ADD3CA /* デザイン５.png */,
+				B88448BF26E27A4800ADD3CA /* デザイン６.png */,
+				B88448C326E27EA000ADD3CA /* デザイン7.png */,
+				B88448C226E27E9F00ADD3CA /* デザイン8.png */,
 				B8E9F2C026121C0900DC8055 /* 402.png */,
 				B848535B25BD2556003B33B7 /* AppDelegate.swift */,
 				B8A62E02260F11A500B92C1C /* Main.storyboard */,
 				B83E4A02267A40ED0035CE35 /* aisatunodetaillViewController.swift */,
+				B88448B626E2670F00ADD3CA /* デザイン.png */,
 				B8F559DF2675DBC700EF0F6B /* konnnitihaDetailViewController.swift */,
 				B840B3C726635C0B00C4F82B /* gojyuuonnViewController.swift */,
 				B8A62E08260F124B00B92C1C /* kanjinumberDetailViewController.swift */,
@@ -1123,6 +1192,7 @@
 				B88CE64226B2FC7600CE03EB /* sayounara4.png in Resources */,
 				B88CE60526B04FA500CE03EB /* arigato.png in Resources */,
 				B88CE6F926BE863400CE03EB /* dare1.png in Resources */,
+				B88448D726E3734A00ADD3CA /* Design.png in Resources */,
 				B88CE5C926AF188B00CE03EB /* おは２.png in Resources */,
 				B88CE6B126BD6E1300CE03EB /* 2yo.png in Resources */,
 				B88CE66226B6BB4E00CE03EB /* ohisasiburidesu4.png in Resources */,
@@ -1133,6 +1203,7 @@
 				B88CE6D126BD6E1400CE03EB /* 2u.png in Resources */,
 				B848541425CFBFAB003B33B7 /* ka.png in Resources */,
 				B88CE71126BEADD600CE03EB /* 2go.png in Resources */,
+				B88448BB26E2784200ADD3CA /* デザイン３.png in Resources */,
 				B848545025CFBFED003B33B7 /* tu.png in Resources */,
 				B848543725CFBFD5003B33B7 /* su.png in Resources */,
 				B88CE6C426BD6E1300CE03EB /* 2ki.png in Resources */,
@@ -1143,6 +1214,7 @@
 				B88CE6B326BD6E1300CE03EB /* 2to.png in Resources */,
 				B88CE6D226BD6E1400CE03EB /* 2ha.png in Resources */,
 				B88CE71726BEADD600CE03EB /* 2yon.png in Resources */,
+				B88448B726E2671000ADD3CA /* デザイン.png in Resources */,
 				B88CE6C726BD6E1300CE03EB /* 2a.png in Resources */,
 				B88CE72826BF6E0400CE03EB /* 4.png in Resources */,
 				B88CE61526B0601300CE03EB /* gomenn.png in Resources */,
@@ -1154,6 +1226,7 @@
 				B88CE6F526BE863400CE03EB /* nani3.png in Resources */,
 				B848542325CFBFBA003B33B7 /* ke.png in Resources */,
 				B848547325CFC03B003B33B7 /* no.png in Resources */,
+				B88448E126E3835700ADD3CA /* Design6.png in Resources */,
 				B88CE71D26BED81100CE03EB /* 2senn.png in Resources */,
 				B80C10BE260B5E2100298090 /* hati.png in Resources */,
 				B88CE66426B6BB4E00CE03EB /* ohisasiburidesu2.png in Resources */,
@@ -1181,10 +1254,12 @@
 				B84854AA25CFC073003B33B7 /* ya.png in Resources */,
 				B88CE62026B06B0B00CE03EB /* hajihajihaji.png in Resources */,
 				B88CE5D126B01BD600CE03EB /* ohisa4.png in Resources */,
+				B88448DB26E3794F00ADD3CA /* Design４.png in Resources */,
 				B88CE64F26B3001E00CE03EB /* gomennnasai2.png in Resources */,
 				B8E9F2C126121C0900DC8055 /* 402.png in Resources */,
 				B88CE6B226BD6E1300CE03EB /* 2nn.png in Resources */,
 				B848545525CFBFF6003B33B7 /* te.png in Resources */,
+				B88448C026E27A4800ADD3CA /* デザイン５.png in Resources */,
 				B88CE5C426AF155D00CE03EB /* はじめま２.png in Resources */,
 				B88CE71926BED80400CE03EB /* 2itioku.png in Resources */,
 				B88CE6CB26BD6E1300CE03EB /* 2i.png in Resources */,
@@ -1195,7 +1270,9 @@
 				B88CE64D26B3001E00CE03EB /* gomennnasai.png in Resources */,
 				B88CE71B26BED80C00CE03EB /* 2hyaku.png in Resources */,
 				B88CE5E226B0317B00CE03EB /* ome3.png in Resources */,
+				B88448C426E27EA000ADD3CA /* デザイン8.png in Resources */,
 				B88CE64826B2FCEA00CE03EB /* arigatougozaimasu2.png in Resources */,
+				B88448BD26E2784E00ADD3CA /* デザイン４.png in Resources */,
 				B88CE65B26B6B4F300CE03EB /* yorosikuonegaisimasu2.png in Resources */,
 				B848548C25CFC055003B33B7 /* ho.png in Resources */,
 				B88CE71226BEADD600CE03EB /* 2iti.png in Resources */,
@@ -1210,11 +1287,13 @@
 				B88CE6AA26BD6E1300CE03EB /* 2sa.png in Resources */,
 				B88CE63826B1A26300CE03EB /* konnbannha.png in Resources */,
 				B88CE5EE26B0389C00CE03EB /* otu4.png in Resources */,
+				B88448E326E3835700ADD3CA /* Design7.png in Resources */,
 				B88CE71626BEADD600CE03EB /* 2zero.png in Resources */,
 				B88CE6A926BD6E1300CE03EB /* 2ho.png in Resources */,
 				B8E9F2A526121A6300DC8055 /* 10.png in Resources */,
 				B88CE6C826BD6E1300CE03EB /* 2si.png in Resources */,
 				B848543C25CFBFD9003B33B7 /* se.png in Resources */,
+				B88448D626E3734A00ADD3CA /* Design２.png in Resources */,
 				B848540025CF9531003B33B7 /* i.png in Resources */,
 				B84854BE25CFC083003B33B7 /* ri.png in Resources */,
 				B848544125CFBFDE003B33B7 /* so.png in Resources */,
@@ -1267,6 +1346,7 @@
 				B88CE6A826BD6E1300CE03EB /* 2ya.png in Resources */,
 				B88CE6C026BD6E1300CE03EB /* 2o.png in Resources */,
 				B88CE5E326B0317B00CE03EB /* ome2.png in Resources */,
+				B88448E026E3835700ADD3CA /* Design5.png in Resources */,
 				B8A62E0E260F737A00B92C1C /* ジュウ.png in Resources */,
 				B88CE71526BEADD600CE03EB /* 2san.png in Resources */,
 				B848541925CFBFB0003B33B7 /* ki.png in Resources */,
@@ -1294,7 +1374,9 @@
 				B88CE65D26B6B4F300CE03EB /* yorosikuonegaisimasu.png in Resources */,
 				B84854B925CFC07E003B33B7 /* ra.png in Resources */,
 				B88CE6A626BD6E1300CE03EB /* 2ta.png in Resources */,
+				B88448E226E3835700ADD3CA /* Design8.png in Resources */,
 				B88CE63426B1A0A300CE03EB /* konnnitiha.png in Resources */,
+				B88448C526E27EA000ADD3CA /* デザイン7.png in Resources */,
 				B88CE60726B04FA500CE03EB /* arigato3.png in Resources */,
 				B88CE6C226BD6E1300CE03EB /* 2so.png in Resources */,
 				B88CE72C26BF6E0400CE03EB /* 7.png in Resources */,
@@ -1339,6 +1421,7 @@
 				B88CE5B026ADB35F00CE03EB /* 初めまして 2.png in Resources */,
 				B848540A25CFBF98003B33B7 /* e.png in Resources */,
 				B88CE65026B3001E00CE03EB /* gomennnasai4.png in Resources */,
+				B88448D926E3760C00ADD3CA /* Design3.png in Resources */,
 				B88CE62E26B19F1A00CE03EB /* ohayougozaimasu2.png in Resources */,
 				B88CE70226BE863400CE03EB /* doudesuka1.png in Resources */,
 				B88CE6BB26BD6E1300CE03EB /* 2wa.png in Resources */,
@@ -1365,6 +1448,7 @@
 				B84853F525BDC13A003B33B7 /* アセット 13.png in Resources */,
 				B88CE61B26B064B000CE03EB /* yorosiku.png in Resources */,
 				B88CE62F26B19F1A00CE03EB /* ohayougozaimasu3.png in Resources */,
+				B88448B926E2677500ADD3CA /* デザイン２.png in Resources */,
 				B88CE66B26B6BED600CE03EB /* douitasimasite.png in Resources */,
 				B848546425CFC01B003B33B7 /* ni.png in Resources */,
 				B848543225CFBFCD003B33B7 /* si.png in Resources */,
@@ -1378,6 +1462,8 @@
 				B88CE5DA26B0214100CE03EB /* douita4.png in Resources */,
 				B88CE6B826BD6E1300CE03EB /* 2ku.png in Resources */,
 				B88CE61C26B064B000CE03EB /* yorosiku2.png in Resources */,
+				B88448B526E25DA600ADD3CA /* 赤色.png in Resources */,
+				B88448C126E27A4800ADD3CA /* デザイン６.png in Resources */,
 				B88CE5DC26B0214100CE03EB /* douita2.png in Resources */,
 				B84853B825BD9178003B33B7 /* アセット 2.png in Resources */,
 			);
@@ -1405,20 +1491,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				B88CE65526B6AE5900CE03EB /* gimonnViewController.swift in Sources */,
+				B88448CB26E364FF00ADD3CA /* ResulttwoViewController.swift in Sources */,
 				B8F559E02675DBC700EF0F6B /* konnnitihaDetailViewController.swift in Sources */,
+				B88448C926E3617300ADD3CA /* QuiztwoViewController.swift in Sources */,
 				B8A62E09260F124B00B92C1C /* kanjinumberDetailViewController.swift in Sources */,
 				B88448B126DB259300ADD3CA /* QuizViewController.swift in Sources */,
 				B84853A325BD6CB9003B33B7 /* syuwaViewController.swift in Sources */,
 				B826FB0426AD01F900CC1497 /* suujiDetailViewController.swift in Sources */,
 				B848536025BD2556003B33B7 /* ViewController.swift in Sources */,
+				B88448CF26E36BE800ADD3CA /* ResultthreeViewController.swift in Sources */,
 				B848535C25BD2556003B33B7 /* AppDelegate.swift in Sources */,
 				B84853AB25BD8AF0003B33B7 /* characterListViewController.swift in Sources */,
 				B88CE6D726BD88D800CE03EB /* AlphabetCollectionViewCell.swift in Sources */,
+				B88448CD26E36B0E00ADD3CA /* QuizthreeViewController.swift in Sources */,
 				B88448B326DB25D200ADD3CA /* ResultViewController.swift in Sources */,
 				B8A62E2E2610510200B92C1C /* manynumberDetailViewController.swift in Sources */,
 				B83E4A03267A40ED0035CE35 /* aisatunodetaillViewController.swift in Sources */,
 				B88CE6D526BD754C00CE03EB /* whatDetailViewController.swift in Sources */,
 				B80C1082260B3ED600298090 /* numberListViewController.swift in Sources */,
+				B88448D326E36FAC00ADD3CA /* ResultfourViewController.swift in Sources */,
 				B8A62E3B2611752100B92C1C /* aisatuDetailViewController.swift in Sources */,
 				B8E9F2C62612B9C500DC8055 /* CollectionViewCell.swift in Sources */,
 				B826FB0626AD0AEA00CC1497 /* todoDetailViewController.swift in Sources */,
@@ -1429,6 +1520,7 @@
 				B840B3C826635C0C00C4F82B /* gojyuuonnViewController.swift in Sources */,
 				B848535E25BD2556003B33B7 /* SceneDelegate.swift in Sources */,
 				B84853EB25BDB6EF003B33B7 /* characterDetailViewController.swift in Sources */,
+				B88448D126E36E8900ADD3CA /* QuizfourViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

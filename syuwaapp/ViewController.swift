@@ -16,15 +16,7 @@ class ViewController: UIViewController {
             // Do any additional setup after loading the view, typically from a nib.
             
             
-             
-            learnbutton.backgroundColor = UIColor(hex: "FDF254")// ボタン背景色設定
-            learnbutton.backgroundColor = UIColor(hex: "FDF254")                                              // 背景色
-            learnbutton.layer.borderWidth = 0                                             // 枠線の幅
-            learnbutton.layer.borderColor = UIColor.blue.cgColor                            // 枠線の色
-            learnbutton.layer.cornerRadius = 0
-            // 角丸のサイズ
-            learnbutton.setTitleColor(UIColor.black, for: UIControl.State.normal)
-            // タイトルの色
+            
         
         }
         

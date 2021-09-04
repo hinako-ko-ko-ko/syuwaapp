@@ -1,13 +1,13 @@
 //
-//  ResultViewController.swift
+//  ResultthreeViewController.swift
 //  syuwaapp
 //
-//  Created by 中井日向子 on 2021/08/29.
+//  Created by 中井日向子 on 2021/09/04.
 //
 
 import UIKit
 
-class ResultViewController: UIViewController {
+class ResultthreeViewController: UIViewController {
 
     //正解数
     var correctAnswer: Int = 0

@@ -1,31 +1,25 @@
 //
-//  ResultViewController.swift
+//  ResultfourViewController.swift
 //  syuwaapp
 //
-//  Created by 中井日向子 on 2021/08/29.
+//  Created by 中井日向子 on 2021/09/04.
 //
 
 import UIKit
 
-class ResultViewController: UIViewController {
+class ResultfourViewController: UIViewController {
 
-    //正解数
-    var correctAnswer: Int = 0
-    
-    //結果を表示するラベルの宣言
-    @IBOutlet var resultLavel: UILabel!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        let imageView = UIImageView()
+        imageView.layer.cornerRadius = 10
+        imageView.layer.shadowColor = UIColor.black.cgColor
+        imageView.layer.shadowOffset = .zero
+        imageView.layer.shadowOpacity = 0.3
+        imageView.layer.shadowRadius = 4
         // Do any additional setup after loading the view.
-        resultLavel.text = String(correctAnswer)
     }
-    @IBAction func back(){
-        self.presentingViewController?.presentingViewController?.presentingViewController
-        dismiss(animated: true, completion: nil)
-        
-    }
+    
 
     /*
     // MARK: - Navigation

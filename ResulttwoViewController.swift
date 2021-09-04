@@ -1,5 +1,5 @@
 //
-//  ResultViewController.swift
+//  ResulttwoViewController.swift
 //  syuwaapp
 //
 //  Created by 中井日向子 on 2021/08/29.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ResultViewController: UIViewController {
+class ResulttwoViewController: UIViewController {
 
     //正解数
     var correctAnswer: Int = 0
