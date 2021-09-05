@@ -31,19 +31,19 @@ let images =  ["1.png","2.png","3.png","4.png","5.png","6.png","7.png","8.png","
         super.viewDidLoad()
 
         //quizArrayに問題文　4個の選択肢　答えの番号が入った配列を追加
-        quizArray.append(["１　の手話はどれか","1.png","選択肢２","選択肢３","選択肢４",2])
-        quizArray.append(["２　の手話はどれか","2.png","選択肢２","選択肢３","選択肢４",2])
-        quizArray.append(["３　の手話はどれか","3.png","選択肢２","選択肢３","選択肢４",2])
-        quizArray.append(["４　の手話はどれか","4.png","選択肢２","選択肢３","選択肢４",2])
-        quizArray.append(["５　の手話はどれか","5.png","選択肢２","選択肢３","選択肢４",2])
-        quizArray.append(["６　の手話はどれか","6.png","選択肢２","選択肢３","選択肢４",2])
-        quizArray.append(["７　の手話はどれか","7.png","選択肢２","選択肢３","選択肢４",2])
-        quizArray.append(["８　の手話はどれか","8.png","選択肢２","選択肢３","選択肢４",2])
-        quizArray.append(["９　の手話はどれか","9.png","選択肢２","選択肢３","選択肢４",2])
-        quizArray.append(["０　の手話はどれか","0.png","選択肢２","選択肢３","選択肢４",2])
-        quizArray.append(["１００　の手話はどれか","2hyaku.png","選択肢２","選択肢３","選択肢４",2])
-        quizArray.append(["１０００　の手話はどれか","2senn.png","選択肢２","選択肢３","選択肢４",2])
-        quizArray.append(["１００００　の手話はどれか","2itioku.png","選択肢２","選択肢３","選択肢４",2])
+        quizArray.append(["『１』の手話はどちらでしょう","1.png","選択肢２",2])
+        quizArray.append(["『２』の手話はどちらでしょう","2.png","選択肢２",2])
+        quizArray.append(["『３』の手話はどちらでしょう","3.png","選択肢２",2])
+        quizArray.append(["『４』の手話はどちらでしょう","4.png","選択肢２",2])
+        quizArray.append(["『５』の手話はどちらでしょう","5.png","選択肢２",2])
+        quizArray.append(["『６』の手話はどちらでしょう","6.png","選択肢２",2])
+        quizArray.append(["『７』の手話はどちらでしょう","7.png","選択肢２",2])
+        quizArray.append(["『８』の手話はどちらでしょう","8.png","選択肢２",2])
+        quizArray.append(["『９』の手話はどちらでしょう","9.png","選択肢２",2])
+        quizArray.append(["『０』の手話はどちらでしょう","0.png","選択肢２",2])
+        quizArray.append(["『１００』の手話はどちらでしょう","2hyaku.png","選択肢２",2])
+        quizArray.append(["『１０００』の手話はどちらでしょう","2senn.png","選択肢２",2])
+        quizArray.append(["『１００００』の手話はどちらでしょう","2itioku.png","選択肢２",2])
      
         
         //問題文シャッフル
@@ -58,25 +58,25 @@ let images =  ["1.png","2.png","3.png","4.png","5.png","6.png","7.png","8.png","
             let answer = tmpArray[1] as! String
             
             // 写真をランダムで3枚取得
-            var choices = Array(images.shuffled()[0..<4])
+            var choices = Array(images.shuffled()[0..<2])
             
             // 答えの画像を含んでいる場合は、もう一回取得し直す
             while choices.contains(answer) {
-                choices = Array(images.shuffled()[0..<4])
+                choices = Array(images.shuffled()[0..<2])
             }
             
             // 答えを何番目にするかランダムに決める
-            let answerIndex = Int.random(in: 0..<4)
+            let answerIndex = Int.random(in: 0..<2)
             // 答えをanswerIndex番目に代入
             choices[answerIndex] = answer
             
             // ランダムな選択肢を配列に戻す
-            for i in 0..<4 {
+            for i in 0..<2 {
                 tmpArray[i + 1] = choices[i]
             }
                     
                     // 答えが何番目か保存
-                    tmpArray[5] = answerIndex + 1
+                    tmpArray[3] = answerIndex + 1
                     // 元の配列に戻す
                     quizArray[0] = tmpArray
                     
@@ -86,8 +86,7 @@ let images =  ["1.png","2.png","3.png","4.png","5.png","6.png","7.png","8.png","
                     //選択肢ボタンにそれぞれの選択肢をセット
                     choiceButton1.setBackgroundImage(UIImage(named: tmpArray[1] as! String), for: .normal)
                     choiceButton2.setBackgroundImage(UIImage(named: tmpArray[2] as! String), for: .normal)
-                    choiceButton3.setBackgroundImage(UIImage(named: tmpArray[3] as! String), for: .normal)
-                    choiceButton4.setBackgroundImage(UIImage(named: tmpArray[4] as! String), for: .normal)
+                    
                 }
      func performSegueToResult(){
         performSegue(withIdentifier: "toResulttView", sender: nil)
@@ -104,7 +103,7 @@ let images =  ["1.png","2.png","3.png","4.png","5.png","6.png","7.png","8.png","
         
         let tmpArray = quizArray[0] as! [Any]
         
-        if tmpArray[5] as! Int == sender.tag {
+        if tmpArray[3] as! Int == sender.tag {
             
             //正解すうを増やす
             correctAnser = correctAnser + 1

@@ -10,11 +10,13 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet weak var learnbutton: UIButton!
     @IBOutlet weak var quizebutton: UIButton!
+    
      
         override func viewDidLoad() {
             super.viewDidLoad()
             // Do any additional setup after loading the view, typically from a nib.
             
+           
             
             
         

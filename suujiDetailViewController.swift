@@ -9,7 +9,7 @@ class suujiDetailViewController: UIViewController, UICollectionViewDelegate, UIC
     
     @IBOutlet var collectionView: UICollectionView!
     
-    let array = ["はじめまして","おはよう","こんにちは","こんばんは","ありがとう","さようなら","ごめんなさい","よろしくお願いします","お久しぶりです","どういたしまして","おめでとう"]
+    let array = ["おはよう","こんにちは","こんばんは","ありがとう","どういたしまして","ごめんなさい","はじめまして","さようなら","お久しぶりです","よろしくお願いします","おめでとう"]
     var index = 0
     
     override func viewDidLoad() {

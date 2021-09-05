@@ -8,24 +8,24 @@
 import UIKit
 
 class whatDetailViewController: UIViewController {
-    let characterArray: [String] = ["なに","いつ","どこ","だれ","なぜ","どうですか"]
-    let images : [String] = ["nani1.png","itu1.png","doko1.png","dare1.png","naze1.png","doudesuka1.png"]
+    let characterArray: [String] = ["いつ","どこ","だれ","なに","なぜ","どうですか"]
+    let images : [String] = ["itu1.png","doko1.png","dare1.png","nani1.png","naze1.png","doudesuka1.png"]
     
-    let images2: [String] = ["nani2.png","itu2.png","doko2.png","dare2.png","naze2.png","doudesuka2.png"]
-    let images3: [String] = ["nani3.png","itu3.png","nani1.png","dare3.png","naze3.png","doudesuka3.png"]
-    let images4: [String] = ["nani4.png","itu4.png","nani2.png","dare4.png","naze4.png","doudesuka4.png"]
+    let images2: [String] = ["itu2.png","doko2.png","dare2.png","nani2.png","naze2.png","doudesuka2.png"]
+    let images3: [String] = ["itu3.png","nani1.png","dare3.png","nani3.png","naze3.png","doudesuka3.png"]
+    let images4: [String] = ["itu4.png","nani2.png","dare4.png","nani4.png","naze4.png","doudesuka4.png"]
     let details :[String] =
-        ["人差し指を立てて左右に振る",
-         "両手を手首で\n交差させるように縦に重ねる"
+        ["両手を手首で\n交差させるように縦に重ねる"
          ,"指先を折り曲げて体の前に置く"
          ,"右手の指を曲げて頬に当てる"
+         ,"人差し指を立てて左右に振る"
          ,"左手の手のひらの下に\n人差し指を伸ばした右手を置く"
          ,"手のひらを上に向けて横に動かす"]
     let details2 :[String] =
-        ["手のひらを前に出す"
-         ,"同時に親指から順に折り曲げる"
+        ["同時に親指から順に折り曲げる"
          ,"人差し指を立てて左右に振る"
          ,"右手を前に数回出す"
+         ,"手のひらを前に出す"
          ,"右手を前に向かって潜らせる"
          ,"手のひらを前に出す"]
     

@@ -1,14 +1,14 @@
 //
-//  QuizfourViewController.swift
+//  QuizViewController.swift
 //  syuwaapp
 //
-//  Created by 中井日向子 on 2021/09/04.
+//  Created by 中井日向子 on 2021/08/29.
 //
 
 import UIKit
 
-class QuizfourViewController: UIViewController {
-
+class QuizView2Controller: UIViewController {
+    
     //問題集を数えるための変数
     var quizArray = [Any]()
     
@@ -24,21 +24,27 @@ class QuizfourViewController: UIViewController {
     @IBOutlet var choiceButton3: UIButton!
     @IBOutlet var choiceButton4: UIButton!
     
-   
     
-let images =  ["nani1.png","itu1.png","doko1.png","dare1.png","naze1.png","doudesuka1.png"]
+let images =  ["1.png","2.png","3.png","4.png","5.png","6.png","7.png","8.png","9.png","0.png","2hyaku.png","2senn.png","2itioku.png",]
     override func viewDidLoad() {
         super.viewDidLoad()
 
         //quizArrayに問題文　4個の選択肢　答えの番号が入った配列を追加
-        quizArray.append(["『なに』の手話はどれでしょう","nani1.png","選択肢２","選択肢３","選択肢４",2])
-        quizArray.append(["『いつ』の手話はどれでしょう","itu1.png","選択肢２","選択肢３","選択肢４",2])
-        quizArray.append(["『どこ』の手話はどれでしょう","doko1.png","選択肢２","選択肢３","選択肢４",2])
-        quizArray.append(["『だれ』の手話はどれでしょう","dare1.png","選択肢２","選択肢３","選択肢４",2])
-        quizArray.append(["『なぜ』の手話はどれでしょう","naze1.png","選択肢２","選択肢３","選択肢４",2])
-        quizArray.append(["『どうですか』の手話はどれでしょう","doudesuka1.png","選択肢２","選択肢３","選択肢４",2])
-      
-     
+        quizArray.append(["１　の手話はどれか","1.png","選択肢２","選択肢３","選択肢４",2])
+        quizArray.append(["２　の手話はどれか","2.png","選択肢２","選択肢３","選択肢４",2])
+        quizArray.append(["３　の手話はどれか","3.png","選択肢２","選択肢３","選択肢４",2])
+        quizArray.append(["４　の手話はどれか","3.png","選択肢２","選択肢３","選択肢４",2])
+        quizArray.append(["５　の手話はどれか","3.png","選択肢２","選択肢３","選択肢４",2])
+        quizArray.append(["６　の手話はどれか","3.png","選択肢２","選択肢３","選択肢４",2])
+        quizArray.append(["７　の手話はどれか","3.png","選択肢２","選択肢３","選択肢４",2])
+        quizArray.append(["８　の手話はどれか","3.png","選択肢２","選択肢３","選択肢４",2])
+        quizArray.append(["９　の手話はどれか","3.png","選択肢２","選択肢３","選択肢４",2])
+        quizArray.append(["０　の手話はどれか","3.png","選択肢２","選択肢３","選択肢４",2])
+        quizArray.append(["１００　の手話はどれか","2hyaku.png","選択肢２","選択肢３","選択肢４",2])
+        quizArray.append(["１０００　の手話はどれか","2senn.png","選択肢２","選択肢３","選択肢４",2])
+        quizArray.append(["１００００　の手話はどれか","2itioku.png","選択肢２","選択肢３","選択肢４",2])
+       
+        
         
         //問題文シャッフル
         quizArray.shuffle()
@@ -84,14 +90,14 @@ let images =  ["nani1.png","itu1.png","doko1.png","dare1.png","naze1.png","doude
                     choiceButton4.setBackgroundImage(UIImage(named: tmpArray[4] as! String), for: .normal)
                 }
      func performSegueToResult(){
-        performSegue(withIdentifier: "toResulttttView", sender: nil)
+        performSegue(withIdentifier: "toResultView", sender: nil)
     }
     
 //segueを準備するときに呼ばれるメソッド
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "toResulttttView"{
-            let resultsfourViewController = segue.destination as!  ResultsfourViewController
-            resultsfourViewController.correctAnswer = self.correctAnser
+        if segue.identifier == "toResultView"{
+            let resultViewController = segue.destination as! ResultViewController
+            resultViewController.correctAnswer = self.correctAnser
         }
     }
     @IBAction func choiceAnswer(sender: UIButton) {

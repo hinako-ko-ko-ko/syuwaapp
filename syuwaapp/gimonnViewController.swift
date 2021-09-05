@@ -9,7 +9,7 @@ class gimonnViewController: UIViewController, UICollectionViewDelegate, UICollec
     
     @IBOutlet var collectionView: UICollectionView!
     
-    let array = ["なに","いつ","どこ","だれ","なぜ","どうですか"]
+    let array = ["いつ","どこ","だれ","なに","なぜ","どうですか"]
     var index = 0
     
     override func viewDidLoad() {
