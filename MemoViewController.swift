@@ -11,20 +11,20 @@ import RealmSwift
 class MemoViewController: UIViewController, UITextFieldDelegate {
     
     let realm = try! Realm()
-    @IBOutlet var titleTextField: UITextField!
-    @IBOutlet var contentTextField: UITextField!
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        titleTextField.delegate = self
-        contentTextField.delegate = self
+        
+       
         
         let memos = read()
         print(memos)
         if let memo = memos.first {
-            titleTextField.text = memo.title
-            contentTextField.text = memo.content
+            
+            
             //メモのデータを入れる
         }
         //Realm内に保存したメモの情報を保持するための定数memoを初期化する　memoという代数に取得したデータを代入
@@ -36,8 +36,8 @@ class MemoViewController: UIViewController, UITextFieldDelegate {
         //Realmにアクセス　メモの情報を読み出す（readしてる）
     }
     @IBAction func save(){
-        let title: String = titleTextField.text!
-        let content: String = contentTextField.text!
+      
+        
         //TextFieldに入力された文字列を取得
         //        let memo: Memo? = read()
         //すでに保存されているメモを取得
@@ -49,8 +49,8 @@ class MemoViewController: UIViewController, UITextFieldDelegate {
         //            }
         //        }else{
         let newMemo = Memo()
-        newMemo.title = title
-        newMemo.content = content
+       
+        
         try! realm.write{
             realm.add(newMemo)
             //                //メモの新規作成
