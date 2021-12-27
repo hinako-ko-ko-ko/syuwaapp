@@ -15,6 +15,9 @@ import UIKit
 class numberListViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
     
     @IBOutlet var collectionView: UICollectionView!
+    @IBAction func backbutton(){
+        self.navigationController?.popViewController(animated: true)
+    }
     
     let array = ["1","2","3","4","5","6","7","8","9","0","100","1000","10000",]
     

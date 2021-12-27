@@ -109,6 +109,8 @@
 		B84854DC25CFC0A8003B33B7 /* nn.png in Resources */ = {isa = PBXBuildFile; fileRef = B84854DB25CFC0A8003B33B7 /* nn.png */; };
 		B86AF62E2778518700A6BABF /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = B86AF62D2778518700A6BABF /* Realm */; };
 		B86AF6302778518700A6BABF /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B86AF62F2778518700A6BABF /* RealmSwift */; };
+		B86AF65F27799C4E00A6BABF /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86AF65E27799C4D00A6BABF /* MemoViewController.swift */; };
+		B86AF66127799DDA00A6BABF /* memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86AF66027799DDA00A6BABF /* memo.swift */; };
 		B88448B126DB259300ADD3CA /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88448B026DB259300ADD3CA /* QuizViewController.swift */; };
 		B88448B326DB25D200ADD3CA /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88448B226DB25D200ADD3CA /* ResultViewController.swift */; };
 		B88448B526E25DA600ADD3CA /* 赤色.png in Resources */ = {isa = PBXBuildFile; fileRef = B88448B426E25DA500ADD3CA /* 赤色.png */; };
@@ -476,6 +478,8 @@
 		B84854D125CFC09C003B33B7 /* wa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wa.png; sourceTree = "<group>"; };
 		B84854D625CFC0A0003B33B7 /* wo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wo.png; sourceTree = "<group>"; };
 		B84854DB25CFC0A8003B33B7 /* nn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nn.png; sourceTree = "<group>"; };
+		B86AF65E27799C4D00A6BABF /* MemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
+		B86AF66027799DDA00A6BABF /* memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memo.swift; sourceTree = "<group>"; };
 		B88448B026DB259300ADD3CA /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		B88448B226DB25D200ADD3CA /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		B88448B426E25DA500ADD3CA /* 赤色.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "赤色.png"; sourceTree = "<group>"; };
@@ -760,6 +764,8 @@
 		B848534F25BD2556003B33B7 = {
 			isa = PBXGroup;
 			children = (
+				B86AF66027799DDA00A6BABF /* memo.swift */,
+				B86AF65E27799C4D00A6BABF /* MemoViewController.swift */,
 				B8450E9126FCC41A00C94316 /* cameraController.swift */,
 				B8450E9526FCC96400C94316 /* MyImageClassifier 2.mlmodel */,
 				B884490226E49C3000ADD3CA /* ViewtwoController.swift */,
@@ -1630,8 +1636,10 @@
 				B8A62E402611BF0300B92C1C /* UIColor+hex.swift in Sources */,
 				B840B3C826635C0C00C4F82B /* gojyuuonnViewController.swift in Sources */,
 				B848535E25BD2556003B33B7 /* SceneDelegate.swift in Sources */,
+				B86AF65F27799C4E00A6BABF /* MemoViewController.swift in Sources */,
 				B84853EB25BDB6EF003B33B7 /* characterDetailViewController.swift in Sources */,
 				B88448D126E36E8900ADD3CA /* QuizfourViewController.swift in Sources */,
+				B86AF66127799DDA00A6BABF /* memo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

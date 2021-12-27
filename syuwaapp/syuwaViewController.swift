@@ -9,7 +9,9 @@ import UIKit
 
 class syuwaViewController: UIViewController {
     
-   
+    @IBAction func backbutton(){
+        self.navigationController?.popViewController(animated: true)
+    }
     
 
 

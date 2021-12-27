@@ -21,6 +21,9 @@
         @IBOutlet var imageView2: UIImageView!
         @IBOutlet var Label: UILabel!
         @IBOutlet var characterLabel: UILabel!
+        @IBAction func backbutton(){
+            self.navigationController?.popViewController(animated: true)
+        }
         
         override func viewDidLoad() {
             super.viewDidLoad()

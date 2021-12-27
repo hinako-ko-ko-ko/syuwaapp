@@ -8,6 +8,9 @@ import UIKit
 class suujiDetailViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
     
     @IBOutlet var collectionView: UICollectionView!
+    @IBAction func backbutton(){
+        self.navigationController?.popViewController(animated: true)
+    }
     
     let array = ["おはよう","こんにちは","こんばんは","ありがとう","どういたしまして","ごめんなさい","はじめまして","さようなら","お久しぶりです","よろしくお願いします","おめでとう"]
     var index = 0

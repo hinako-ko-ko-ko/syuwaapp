@@ -97,6 +97,9 @@ let images =  ["nani1.png","itu1.png","doko1.png","dare1.png","naze1.png","doude
             resultsfourViewController.correctAnswer = self.correctAnser
         }
     }
+    @IBAction func backbutton(){
+        self.navigationController?.popViewController(animated: true)
+    }
     @IBAction  func choiceAnswer(sender: UIButton) {
           
           let tmpArray = quizArray[0] as! [Any]

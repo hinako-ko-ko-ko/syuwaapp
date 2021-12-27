@@ -144,7 +144,10 @@ let images =  ["2a.png","2i.png","2u.png","2e.png","2o.png","2ka.png","2ki.png",
         }
     }
         
-   
+    @IBAction func backbutton(){
+        self.navigationController?.popViewController(animated: true)
+    }
+    
     
   @IBAction  func choiceAnswer(sender: UIButton) {
         

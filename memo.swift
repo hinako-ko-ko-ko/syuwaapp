@@ -2,14 +2,12 @@
 //  memo.swift
 //  syuwaapp
 //
-//  Created by 中井日向子 on 2021/12/26.
+//  Created by 中井日向子 on 2021/12/27.
 //
 
 import Foundation
-
-class Memo: Object{
+import RealmSwift
+class Memo: Object {
     @objc dynamic var title: String = ""
     @objc dynamic var content: String = ""
-    //メモのタイトルと内容を保存したい　＞　title と　conect
-    
 }

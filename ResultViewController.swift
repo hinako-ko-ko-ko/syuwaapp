@@ -24,6 +24,9 @@ class ResultViewController: UIViewController {
         //隠す
         
     }
+    @IBAction func backbutton(){
+        self.navigationController?.popViewController(animated: true)
+    }
     @IBAction func back(){
         self.presentingViewController?.presentingViewController?.presentingViewController
         dismiss(animated: true, completion: nil)

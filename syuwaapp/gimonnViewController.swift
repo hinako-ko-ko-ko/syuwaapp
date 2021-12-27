@@ -8,6 +8,9 @@ import UIKit
 class gimonnViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
     
     @IBOutlet var collectionView: UICollectionView!
+    @IBAction func backbutton(){
+        self.navigationController?.popViewController(animated: true)
+    }
     
     let array = ["いつ","どこ","だれ","なに","なぜ","どうですか"]
     var index = 0

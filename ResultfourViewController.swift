@@ -28,6 +28,9 @@ class ResultsfourViewController: UIViewController {
         dismiss(animated: true, completion: nil)
         
     }
+    @IBAction func backbutton(){
+        self.navigationController?.popViewController(animated: true)
+    }
 
     /*
     // MARK: - Navigation

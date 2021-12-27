@@ -94,7 +94,9 @@ let images =  ["hajimemasite.png","ohayougozaimasu.png","konnnitiha.png","konnba
      func performSegueToResult(){
         performSegue(withIdentifier: "toResultttView", sender: nil)
     }
-    
+    @IBAction func backbutton(){
+        self.navigationController?.popViewController(animated: true)
+    }
 //segueを準備するときに呼ばれるメソッド
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "toResultttView"{

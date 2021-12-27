@@ -37,6 +37,9 @@ class whatDetailViewController: UIViewController {
     @IBOutlet var Label: UILabel!
     @IBOutlet var Label2: UILabel!
     @IBOutlet var characterLabel: UILabel!
+    @IBAction func backbutton(){
+        self.navigationController?.popViewController(animated: true)
+    }
     
     
     override func viewDidLoad() {

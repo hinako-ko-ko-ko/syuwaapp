@@ -9,6 +9,9 @@ import UIKit
 
 class ViewtwoController: UIViewController {
     @IBOutlet weak var startbutton: UIButton!
+    @IBAction func backbutton(){
+        self.navigationController?.popViewController(animated: true)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
