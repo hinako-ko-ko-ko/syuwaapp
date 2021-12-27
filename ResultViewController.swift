@@ -8,18 +8,21 @@
 import UIKit
 
 class ResultViewController: UIViewController {
+    
 
     //正解数
     var correctAnswer: Int = 0
     
     //結果を表示するラベルの宣言
     @IBOutlet var resultLavel: UILabel!
-    
-    override func viewDidLoad() {
+        override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         resultLavel.text = String(correctAnswer)
+        navigationController?.setNavigationBarHidden(true, animated: false)
+        //隠す
+        
     }
     @IBAction func back(){
         self.presentingViewController?.presentingViewController?.presentingViewController

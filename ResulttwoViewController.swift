@@ -20,6 +20,8 @@ class ResulttwoViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         resultLavel.text = String(correctAnswer)
+        navigationController?.setNavigationBarHidden(true, animated: false)
+        //隠す
     }
     @IBAction func back(){
         self.presentingViewController?.presentingViewController?.presentingViewController

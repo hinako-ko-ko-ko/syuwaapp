@@ -58,6 +58,8 @@ class todoDetailViewController: UIViewController {
         
         // Do any additional setup after loading the view.
         changeUI()
+        navigationController?.setNavigationBarHidden(true, animated: false)
+        //隠す
     }
     @IBAction func changecharacter(sender :UIButton){
         index = sender.tag

@@ -23,7 +23,7 @@ class QuizthreeViewController: UIViewController {
     @IBOutlet var choiceButton2: UIButton!
     @IBOutlet var choiceButton3: UIButton!
     @IBOutlet var choiceButton4: UIButton!
-    
+    @IBOutlet weak var judgeImageView: UIImageView!
    
     
 let images =  ["hajimemasite.png","ohayougozaimasu.png","konnnitiha.png","konnbannha.png","arigatougozaimasu.png","sayounara.png","gomennnasai.png","yorosikuonegaisimasu.png","ohisasiburidesu.png","douitasimasite.png","omedetougozaimasu.png"]
@@ -49,6 +49,8 @@ let images =  ["hajimemasite.png","ohayougozaimasu.png","konnnitiha.png","konnba
         quizArray.shuffle()
         choiceQuiz()
         // Do any additional setup after loading the view.
+        navigationController?.setNavigationBarHidden(true, animated: false)
+        //隠す
     }
     func choiceQuiz(){
             //いちじ的にクイズを取り出しておく配列
@@ -100,15 +102,25 @@ let images =  ["hajimemasite.png","ohayougozaimasu.png","konnnitiha.png","konnba
             resultthreeViewController.correctAnswer = self.correctAnser
         }
     }
-    @IBAction func choiceAnswer(sender: UIButton) {
+    @IBAction  func choiceAnswer(sender: UIButton) {
+          
+          let tmpArray = quizArray[0] as! [Any]
+          
         
-        let tmpArray = quizArray[0] as! [Any]
-        
-        if tmpArray[4] as! Int == sender.tag {
-            
-            //正解すうを増やす
-            correctAnser = correctAnser + 1
-        }
+              if sender.tag  == (tmpArray[4] as! Int){
+                  correctAnser += 1
+                  print("正解")
+                  judgeImageView.image = UIImage(named: "correct")
+              } else {
+                  print("不正解")
+                  judgeImageView.image = UIImage(named: "incorrect")
+              }
+              DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+                  self.judgeImageView.isHidden = false
+                  self.choiceButton1.isEnabled = true
+                  self.choiceButton2.isEnabled = true
+              
+              }
         
         //といた問題をquizArrayから取り除く
         quizArray.remove(at: 0)

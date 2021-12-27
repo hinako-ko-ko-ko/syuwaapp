@@ -23,6 +23,7 @@ class QuizfourViewController: UIViewController {
     @IBOutlet var choiceButton2: UIButton!
     @IBOutlet var choiceButton3: UIButton!
     @IBOutlet var choiceButton4: UIButton!
+    @IBOutlet weak var judgeImageView: UIImageView!
     
    
     
@@ -44,6 +45,8 @@ let images =  ["nani1.png","itu1.png","doko1.png","dare1.png","naze1.png","doude
         quizArray.shuffle()
         choiceQuiz()
         // Do any additional setup after loading the view.
+        navigationController?.setNavigationBarHidden(true, animated: false)
+        //隠す
     }
     func choiceQuiz(){
             //いちじ的にクイズを取り出しておく配列
@@ -94,15 +97,27 @@ let images =  ["nani1.png","itu1.png","doko1.png","dare1.png","naze1.png","doude
             resultsfourViewController.correctAnswer = self.correctAnser
         }
     }
-    @IBAction func choiceAnswer(sender: UIButton) {
+    @IBAction  func choiceAnswer(sender: UIButton) {
+          
+          let tmpArray = quizArray[0] as! [Any]
+          
         
-        let tmpArray = quizArray[0] as! [Any]
-        
-        if tmpArray[5] as! Int == sender.tag {
-            
-            //正解すうを増やす
-            correctAnser = correctAnser + 1
-        }
+              if sender.tag  == (tmpArray[5] as! Int){
+                  correctAnser += 1
+                  print("正解")
+                  judgeImageView.image = UIImage(named: "correct")
+                  self.judgeImageView.isHidden = false
+              } else {
+                  print("不正解")
+                  judgeImageView.image = UIImage(named: "incorrect")
+                  self.judgeImageView.isHidden = false
+              }
+              DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+                  self.judgeImageView.isHidden = true
+                  self.choiceButton1.isEnabled = true
+                  self.choiceButton2.isEnabled = true
+              
+              }
         
         //といた問題をquizArrayから取り除く
         quizArray.remove(at: 0)

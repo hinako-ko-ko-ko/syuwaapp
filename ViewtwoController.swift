@@ -13,6 +13,8 @@ class ViewtwoController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        navigationController?.setNavigationBarHidden(true, animated: false)
+        //隠す
     }
     
 

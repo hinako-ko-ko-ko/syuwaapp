@@ -9,12 +9,14 @@ import UIKit
 
 class syuwaViewController: UIViewController {
     
+   
     
+
 
     override func viewDidLoad() {
             super.viewDidLoad()
-
-          
+        navigationController?.setNavigationBarHidden(true, animated: false)
+        //隠す
             
 
 

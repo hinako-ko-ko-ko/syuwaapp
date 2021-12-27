@@ -17,6 +17,8 @@ class suujiDetailViewController: UIViewController, UICollectionViewDelegate, UIC
         // Do any additional setup after loading the view.
         collectionView.delegate = self
         collectionView.dataSource = self
+        navigationController?.setNavigationBarHidden(true, animated: false)
+        //隠す
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {

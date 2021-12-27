@@ -19,6 +19,9 @@ class aisatuDetailViewController: UIViewController, UICollectionViewDelegate, UI
         // Do any additional setup after loading the view.
         collectionView.delegate = self
         collectionView.dataSource = self
+        navigationController?.setNavigationBarHidden(true, animated: false)
+        collectionView.backgroundColor = UIColor.clear.withAlphaComponent(0)
+        //隠す
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {

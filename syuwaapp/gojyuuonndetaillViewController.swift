@@ -8,6 +8,7 @@
 import UIKit
 
 class gojyuuonndetaillViewController: UIViewController {
+    
     let characterArray: [String] = ["あ","い","う","え","お","か","き","く","け","こ","さ","し","す","せ","そ","た","ち","つ","て","と","な","に","ぬ","ね","の","は","ひ","ふ","へ","ほ","ま","み","む","め","も","や","ゆ","よ","ら","り","る","れ","ろ","わ","を","ん"]
     let images : [String] = ["2a.png","2i.png","2u.png","2e.png","2o.png","2ka.png","2ki.png","2ku.png","2ke.png","2ko.png","2sa.png","2si.png","2su.png","2se.png","2so.png","2ta.png","2ti.png","2tu.png","2te.png","2to.png","2na.png","2ni.png","2nu.png","2ne.png","2no.png","2ha.png","2hi.png","2hu.png","2he.png","2ho.png","2ma.png","2mi.png","2mu.png","2me.png","2mo.png","2ya.png","2yu.png","2yo.png","2ra.png","2ri.png","2ru.png","2re.png","2ro.png","2wa.png","2wo.png","2nn.png",]
     let details :[String] =
@@ -24,6 +25,9 @@ class gojyuuonndetaillViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         changeUI()
+        navigationController?.setNavigationBarHidden(true, animated: false)
+        //隠す
+        
     }
     @IBAction func changecharacter(sender :UIButton){
         index = sender.tag
