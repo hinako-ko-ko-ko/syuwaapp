@@ -11,3 +11,8 @@ class Memo: Object {
     @objc dynamic var title: String = ""
     @objc dynamic var content: String = ""
 }
+class QuizRecord: Object {
+    @objc dynamic var title: String = ""
+    @objc dynamic var date: Date = .init()
+    @objc dynamic var score: Int = 0
+}

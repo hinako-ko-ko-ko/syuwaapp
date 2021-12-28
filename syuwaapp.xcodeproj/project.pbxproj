@@ -112,6 +112,7 @@
 		B86AF65F27799C4E00A6BABF /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86AF65E27799C4D00A6BABF /* MemoViewController.swift */; };
 		B86AF66127799DDA00A6BABF /* memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86AF66027799DDA00A6BABF /* memo.swift */; };
 		B86AF6632779B07700A6BABF /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86AF6622779B07600A6BABF /* RankingViewController.swift */; };
+		B86AF685277ADABC00A6BABF /* RankingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86AF684277ADABB00A6BABF /* RankingTableViewCell.swift */; };
 		B88448B126DB259300ADD3CA /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88448B026DB259300ADD3CA /* QuizViewController.swift */; };
 		B88448B326DB25D200ADD3CA /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88448B226DB25D200ADD3CA /* ResultViewController.swift */; };
 		B88448B526E25DA600ADD3CA /* 赤色.png in Resources */ = {isa = PBXBuildFile; fileRef = B88448B426E25DA500ADD3CA /* 赤色.png */; };
@@ -482,6 +483,7 @@
 		B86AF65E27799C4D00A6BABF /* MemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
 		B86AF66027799DDA00A6BABF /* memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memo.swift; sourceTree = "<group>"; };
 		B86AF6622779B07600A6BABF /* RankingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
+		B86AF684277ADABB00A6BABF /* RankingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingTableViewCell.swift; sourceTree = "<group>"; };
 		B88448B026DB259300ADD3CA /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		B88448B226DB25D200ADD3CA /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		B88448B426E25DA500ADD3CA /* 赤色.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "赤色.png"; sourceTree = "<group>"; };
@@ -858,6 +860,7 @@
 				B8E9F2C026121C0900DC8055 /* 402.png */,
 				B848535B25BD2556003B33B7 /* AppDelegate.swift */,
 				B8A62E02260F11A500B92C1C /* Main.storyboard */,
+				B86AF684277ADABB00A6BABF /* RankingTableViewCell.swift */,
 				B83E4A02267A40ED0035CE35 /* aisatunodetaillViewController.swift */,
 				B88448B626E2670F00ADD3CA /* デザイン.png */,
 				B8F559DF2675DBC700EF0F6B /* konnnitihaDetailViewController.swift */,
@@ -1609,6 +1612,7 @@
 			files = (
 				B88CE65526B6AE5900CE03EB /* gimonnViewController.swift in Sources */,
 				B8450E9626FCC96400C94316 /* MyImageClassifier 2.mlmodel in Sources */,
+				B86AF685277ADABC00A6BABF /* RankingTableViewCell.swift in Sources */,
 				B88448CB26E364FF00ADD3CA /* ResulttwoViewController.swift in Sources */,
 				B8F559E02675DBC700EF0F6B /* konnnitihaDetailViewController.swift in Sources */,
 				B88448C926E3617300ADD3CA /* QuiztwoViewController.swift in Sources */,

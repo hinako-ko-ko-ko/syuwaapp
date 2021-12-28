@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import RealmSwift
 
 class QuizViewController: UIViewController {
     
@@ -175,6 +176,16 @@ let images =  ["2a.png","2i.png","2u.png","2e.png","2o.png","2ka.png","2ki.png",
         
         //といた問題の合計があらかじめ設定していた問題数に達したら結果画面へ
         if quizArray.count == 0 {
+            let record = QuizRecord()
+                       record.date = .init()
+            record.title = "title"
+            record.score = correctAnser
+            
+            let realm = try! Realm()
+            try! realm.write{
+                realm.add(record)
+                //Realmにスコアを保存
+            }
             performSegueToResult()
         } else {
             choiceQuiz()
