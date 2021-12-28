@@ -142,9 +142,6 @@
 		B88448E726E3B89900ADD3CA /* Design12.png in Resources */ = {isa = PBXBuildFile; fileRef = B88448E626E3B89700ADD3CA /* Design12.png */; };
 		B88448EA26E3B8AE00ADD3CA /* Design10.png in Resources */ = {isa = PBXBuildFile; fileRef = B88448E826E3B8AC00ADD3CA /* Design10.png */; };
 		B88448EB26E3B8AE00ADD3CA /* Design１１.png in Resources */ = {isa = PBXBuildFile; fileRef = B88448E926E3B8AD00ADD3CA /* Design１１.png */; };
-		B88448F326E3CE0100ADD3CA /* Design15.png in Resources */ = {isa = PBXBuildFile; fileRef = B88448F226E3CDFF00ADD3CA /* Design15.png */; };
-		B88448F526E3CE0C00ADD3CA /* Design14.png in Resources */ = {isa = PBXBuildFile; fileRef = B88448F426E3CE0A00ADD3CA /* Design14.png */; };
-		B88448F726E3CE1300ADD3CA /* Design13.png in Resources */ = {isa = PBXBuildFile; fileRef = B88448F626E3CE1100ADD3CA /* Design13.png */; };
 		B88448FC26E47E7600ADD3CA /* Design１８.png in Resources */ = {isa = PBXBuildFile; fileRef = B88448F826E47E7000ADD3CA /* Design１８.png */; };
 		B88448FD26E47E7600ADD3CA /* Design１７.png in Resources */ = {isa = PBXBuildFile; fileRef = B88448F926E47E7000ADD3CA /* Design１７.png */; };
 		B88448FE26E47E7600ADD3CA /* Design１６.png in Resources */ = {isa = PBXBuildFile; fileRef = B88448FA26E47E7200ADD3CA /* Design１６.png */; };
@@ -155,8 +152,6 @@
 		B88CE5AE26ADB35A00CE03EB /* はじめまして１.png in Resources */ = {isa = PBXBuildFile; fileRef = B88CE5AD26ADB35A00CE03EB /* はじめまして１.png */; };
 		B88CE5B026ADB35F00CE03EB /* 初めまして 2.png in Resources */ = {isa = PBXBuildFile; fileRef = B88CE5AF26ADB35F00CE03EB /* 初めまして 2.png */; };
 		B88CE5B226AF0ADF00CE03EB /* 男の人.png in Resources */ = {isa = PBXBuildFile; fileRef = B88CE5B126AF0ADF00CE03EB /* 男の人.png */; };
-		B88CE5BA26AF0D3400CE03EB /* 初めましてのやつ.png in Resources */ = {isa = PBXBuildFile; fileRef = B88CE5B926AF0D3400CE03EB /* 初めましてのやつ.png */; };
-		B88CE5BC26AF0D3B00CE03EB /* 初めましてのやつ２.png in Resources */ = {isa = PBXBuildFile; fileRef = B88CE5BB26AF0D3B00CE03EB /* 初めましてのやつ２.png */; };
 		B88CE5BF26AF0E8200CE03EB /* 初めまして.png in Resources */ = {isa = PBXBuildFile; fileRef = B88CE5BD26AF0E8200CE03EB /* 初めまして.png */; };
 		B88CE5C026AF0E8200CE03EB /* 初めましてのコピー.png in Resources */ = {isa = PBXBuildFile; fileRef = B88CE5BE26AF0E8200CE03EB /* 初めましてのコピー.png */; };
 		B88CE5C326AF155D00CE03EB /* はじめま.png in Resources */ = {isa = PBXBuildFile; fileRef = B88CE5C126AF155C00CE03EB /* はじめま.png */; };
@@ -513,9 +508,6 @@
 		B88448E626E3B89700ADD3CA /* Design12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Design12.png; sourceTree = "<group>"; };
 		B88448E826E3B8AC00ADD3CA /* Design10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Design10.png; sourceTree = "<group>"; };
 		B88448E926E3B8AD00ADD3CA /* Design１１.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Design１１.png"; sourceTree = "<group>"; };
-		B88448F226E3CDFF00ADD3CA /* Design15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Design15.png; path = ../../../Downloads/Design15.png; sourceTree = "<group>"; };
-		B88448F426E3CE0A00ADD3CA /* Design14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Design14.png; path = ../../../Downloads/Design14.png; sourceTree = "<group>"; };
-		B88448F626E3CE1100ADD3CA /* Design13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Design13.png; path = ../../../Downloads/Design13.png; sourceTree = "<group>"; };
 		B88448F826E47E7000ADD3CA /* Design１８.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Design１８.png"; sourceTree = "<group>"; };
 		B88448F926E47E7000ADD3CA /* Design１７.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Design１７.png"; sourceTree = "<group>"; };
 		B88448FA26E47E7200ADD3CA /* Design１６.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Design１６.png"; sourceTree = "<group>"; };
@@ -526,8 +518,6 @@
 		B88CE5AD26ADB35A00CE03EB /* はじめまして１.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "はじめまして１.png"; sourceTree = "<group>"; };
 		B88CE5AF26ADB35F00CE03EB /* 初めまして 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "初めまして 2.png"; sourceTree = "<group>"; };
 		B88CE5B126AF0ADF00CE03EB /* 男の人.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "男の人.png"; sourceTree = "<group>"; };
-		B88CE5B926AF0D3400CE03EB /* 初めましてのやつ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "初めましてのやつ.png"; path = "../../../Creative Cloud Files/1x/初めましてのやつ.png"; sourceTree = "<group>"; };
-		B88CE5BB26AF0D3B00CE03EB /* 初めましてのやつ２.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "初めましてのやつ２.png"; path = "../../../Creative Cloud Files/1x/初めましてのやつ２.png"; sourceTree = "<group>"; };
 		B88CE5BD26AF0E8200CE03EB /* 初めまして.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "初めまして.png"; sourceTree = "<group>"; };
 		B88CE5BE26AF0E8200CE03EB /* 初めましてのコピー.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "初めましてのコピー.png"; sourceTree = "<group>"; };
 		B88CE5C126AF155C00CE03EB /* はじめま.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "はじめま.png"; sourceTree = "<group>"; };
@@ -824,8 +814,6 @@
 				B88448D826E3760C00ADD3CA /* Design3.png */,
 				B8E9F2BB26121B2A00DC8055 /* 102.png */,
 				B88CE5B126AF0ADF00CE03EB /* 男の人.png */,
-				B88CE5B926AF0D3400CE03EB /* 初めましてのやつ.png */,
-				B88CE5BB26AF0D3B00CE03EB /* 初めましてのやつ２.png */,
 				B88CE5BD26AF0E8200CE03EB /* 初めまして.png */,
 				B88CE5BE26AF0E8200CE03EB /* 初めましてのコピー.png */,
 				B88CE5AD26ADB35A00CE03EB /* はじめまして１.png */,
@@ -841,9 +829,6 @@
 				B88448E826E3B8AC00ADD3CA /* Design10.png */,
 				B88448E926E3B8AD00ADD3CA /* Design１１.png */,
 				B88448E626E3B89700ADD3CA /* Design12.png */,
-				B88448F626E3CE1100ADD3CA /* Design13.png */,
-				B88448F426E3CE0A00ADD3CA /* Design14.png */,
-				B88448F226E3CDFF00ADD3CA /* Design15.png */,
 				B88448FA26E47E7200ADD3CA /* Design１６.png */,
 				B88448F926E47E7000ADD3CA /* Design１７.png */,
 				B88448F826E47E7000ADD3CA /* Design１８.png */,
@@ -1370,7 +1355,6 @@
 				B84853CF25BD96B9003B33B7 /* アセット 7.png in Resources */,
 				B88CE65A26B6B4F300CE03EB /* yorosikuonegaisimasu3.png in Resources */,
 				B88CE5F626B03E5000CE03EB /* kon2.png in Resources */,
-				B88CE5BC26AF0D3B00CE03EB /* 初めましてのやつ２.png in Resources */,
 				B88CE64D26B3001E00CE03EB /* gomennnasai.png in Resources */,
 				B88CE71B26BED80C00CE03EB /* 2hyaku.png in Resources */,
 				B88CE5E226B0317B00CE03EB /* ome3.png in Resources */,
@@ -1388,7 +1372,6 @@
 				B816BCC126F7579C00FA9800 /* Design３２.png in Resources */,
 				B8E9F2AA26121AB400DC8055 /* 20.png in Resources */,
 				B88CE5FE26B04A7700CE03EB /* konnbann3.png in Resources */,
-				B88448F326E3CE0100ADD3CA /* Design15.png in Resources */,
 				B84853BD25BD9232003B33B7 /* アセット 4.png in Resources */,
 				B88CE6AA26BD6E1300CE03EB /* 2sa.png in Resources */,
 				B88CE63826B1A26300CE03EB /* konnbannha.png in Resources */,
@@ -1457,7 +1440,6 @@
 				B88CE6A826BD6E1300CE03EB /* 2ya.png in Resources */,
 				B88CE6C026BD6E1300CE03EB /* 2o.png in Resources */,
 				B88CE5E326B0317B00CE03EB /* ome2.png in Resources */,
-				B88448F726E3CE1300ADD3CA /* Design13.png in Resources */,
 				B88448E026E3835700ADD3CA /* Design5.png in Resources */,
 				B88CE71526BEADD600CE03EB /* 2san.png in Resources */,
 				B848541925CFBFB0003B33B7 /* ki.png in Resources */,
@@ -1465,7 +1447,6 @@
 				B88CE6FF26BE863400CE03EB /* naze2.png in Resources */,
 				B88CE6CF26BD6E1400CE03EB /* 2wo.png in Resources */,
 				B84854CD25CFC097003B33B7 /* ro.png in Resources */,
-				B88CE5BA26AF0D3400CE03EB /* 初めましてのやつ.png in Resources */,
 				B88CE66D26B6BED600CE03EB /* douitasimasite2.png in Resources */,
 				B88CE60E26B05C8500CE03EB /* sayo4.png in Resources */,
 				B88CE62826B19B4000CE03EB /* hajimemasite3.png in Resources */,
@@ -1498,7 +1479,6 @@
 				B88CE72A26BF6E0400CE03EB /* 6.png in Resources */,
 				B84853CA25BD9669003B33B7 /* アセット 6.png in Resources */,
 				B88CE71026BEADD600CE03EB /* 2ni_1.png in Resources */,
-				B88448F526E3CE0C00ADD3CA /* Design14.png in Resources */,
 				B88CE71326BEADD600CE03EB /* 2roku.png in Resources */,
 				B88CE70026BE863400CE03EB /* nani4.png in Resources */,
 				B88CE70126BE863400CE03EB /* doudesuka3.png in Resources */,
