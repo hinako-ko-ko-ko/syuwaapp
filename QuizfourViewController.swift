@@ -128,6 +128,10 @@ let images =  ["nani1.png","itu1.png","doko1.png","dare1.png","naze1.png","doude
         //といた問題の合計があらかじめ設定していた問題数に達したら結果画面へ
         if quizArray.count == 0 {
             performSegueToResult()
+            
+            // Realmにスコアを書き込み
+            
+            
         } else {
             choiceQuiz()
             
