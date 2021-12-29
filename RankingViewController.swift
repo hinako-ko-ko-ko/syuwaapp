@@ -9,7 +9,9 @@ import UIKit
 import RealmSwift
 
 class RankingViewController:UIViewController {
-    
+    @IBAction func backbutton(){
+        self.navigationController?.popViewController(animated: true)
+    }
     @IBOutlet var tableView: UITableView! {
         didSet{
             tableView.delegate = self
@@ -35,7 +37,7 @@ extension RankingViewController: UITableViewDelegate,UITableViewDataSource{
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
             let cell = tableView.dequeueReusableCell(withIdentifier: "rankingTableViewCell") as! RankingTableViewCell
             let record = self.result?[indexPath.row]
-            cell.dateLabel.text = record?.date.description
+        cell.dateLabel.text = DateUtils.stringFromDate(date: record!.date, format: "MM月dd日")
             cell.titleLabel.text = record?.title
             cell.scoreLabel.text = String(record?.score ?? 0)
 
@@ -43,3 +45,18 @@ extension RankingViewController: UITableViewDelegate,UITableViewDataSource{
         }
     }
 
+class DateUtils {
+    class func dateFromString(string: String, format: String) -> Date {
+        let formatter: DateFormatter = DateFormatter()
+        formatter.calendar = Calendar(identifier: .gregorian)
+        formatter.dateFormat = format
+        return formatter.date(from: string)!
+    }
+
+    class func stringFromDate(date: Date, format: String) -> String {
+        let formatter: DateFormatter = DateFormatter()
+        formatter.calendar = Calendar(identifier: .gregorian)
+        formatter.dateFormat = format
+        return formatter.string(from: date)
+    }
+}

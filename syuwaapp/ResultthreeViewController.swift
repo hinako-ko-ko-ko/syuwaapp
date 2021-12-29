@@ -28,6 +28,9 @@ class ResultthreeViewController: UIViewController {
         dismiss(animated: true, completion: nil)
         
     }
+    @IBAction func gotokirokubutton(){
+        self.navigationController?.popViewController(animated: true)
+    }
     @IBAction func backbutton(){
         self.navigationController?.popViewController(animated: true)
     }

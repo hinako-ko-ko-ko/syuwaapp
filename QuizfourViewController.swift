@@ -6,7 +6,7 @@
 //
 
 import UIKit
-
+import RealmSwift
 class QuizfourViewController: UIViewController {
 
     //問題集を数えるための変数
@@ -127,6 +127,17 @@ let images =  ["nani1.png","itu1.png","doko1.png","dare1.png","naze1.png","doude
         
         //といた問題の合計があらかじめ設定していた問題数に達したら結果画面へ
         if quizArray.count == 0 {
+            //RealmにScoreを記録
+                       let record = QuizRecord()
+                       record.date = .init()
+                       record.title = "疑問詞"
+                       record.score = correctAnser
+
+                       let realm = try! Realm()
+
+                       try! realm.write {
+                           realm.add(record)
+                       }
             performSegueToResult()
         } else {
             choiceQuiz()

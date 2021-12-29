@@ -178,7 +178,7 @@ let images =  ["2a.png","2i.png","2u.png","2e.png","2o.png","2ka.png","2ki.png",
         if quizArray.count == 0 {
             let record = QuizRecord()
                        record.date = .init()
-            record.title = "title"
+            record.title = "五十音"
             record.score = correctAnser
             
             let realm = try! Realm()

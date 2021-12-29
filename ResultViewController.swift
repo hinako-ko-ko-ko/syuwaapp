@@ -27,6 +27,9 @@ class ResultViewController: UIViewController {
     @IBAction func backbutton(){
         self.navigationController?.popViewController(animated: true)
     }
+    @IBAction func gotokirokubutton(){
+        self.navigationController?.popViewController(animated: true)
+    }
     @IBAction func back(){
         self.presentingViewController?.presentingViewController?.presentingViewController
         dismiss(animated: true, completion: nil)
